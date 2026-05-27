@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>免费评估我的美国研究生录取概率 | SeekingBar</title>
+  <meta name="description" content="免费评估你的美国研究生录取概率。提交基本信息，S老师24小时内给出个性化选校建议。首次咨询免费，无隐形消费。">
+  <meta property="og:title" content="免费评估我的美国研究生录取概率 | SeekingBar">
+  <meta property="og:description" content="提交基本信息，S老师24小时内给出个性化选校建议。首次咨询免费。">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "SeekingBar 和传统留学中介有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "三个核心区别：(1) 导师制一对一 vs 流水线分组——你的导师从选校到签证全程跟进，不是不同部门轮番上阵；(2) 文书不限次修改 vs 计次收费——改到你满意为止，没有轮次限制；(3) 透明定价 vs 增值收费——签约时锁定全部费用，面试辅导、签证辅导不额外收费。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "什么时候开始准备美国研究生申请最合适？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "最晚大三下暑假（6-8月）开始准备。如果目标是 Top 30 项目，建议从大二开始规划实习和科研。具体时间线：大二规划背景提升 → 大三上考 GRE/TOEFL → 大三暑假写文书 → 大四上提交申请（9-12月）→ 大四下收结果+签证。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "S老师擅长哪些专业方向的申请？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "S老师主要擅长统计学、数据科学、商业分析、经济学、金融工程、计算机科学等量化方向。这些方向是辅导案例最多、对行业招生偏好了解最深的领域。如果你的专业不在上述范围内，也欢迎联系，我们会坦诚评估是否适合。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "你们的收费标准是什么？有隐形消费吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "没有隐形消费。三种服务方案：全程陪伴版（选校+文书+面试+签证全覆盖）、文书精修版（头脑风暴+不限次修改+简历）、单项咨询（按需选择具体项目）。签约时锁定全部费用，中间不加价。面试辅导、签证辅导等全部包含在对应套餐内。首次咨询免费。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "文书修改真的不限次数吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "是的。全程陪伴版和文书精修版均不设修改次数上限，不按字数收费。数据显示2024-2025全程陪伴版学员平均修改10+轮。我们的标准是：改到你觉得可以提交为止，不是改到我们觉得可以为止。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "GPA 不高（比如 3.0-3.5）还有机会申 Top 30 吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "有机会，但需要其他条件补位。具体策略：高GRE（325+）证明学术能力、强实习（2-3段相关经历）证明实践能力、有说服力的文书解释GPA趋势（如后期GPA上升）。不同专业对GPA宽容度不同，商业分析 > 数据科学 > 计算机科学。建议免费咨询让S老师评估你的具体情况。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "你们有退款政策吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "全程陪伴版在签约后7天内，如果认为不合适可以无条件退款。文书精修版在第一轮修改交付前可退款。单项咨询为一次性服务，完成即生效。所有退款条款会在合约中详细说明，保证透明公正。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "你们的录取案例都是真实的吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "100%真实。所有展示的录取案例均为实际签约学员，可提供匿名聊天记录作证。我们不会编造或夸大录取结果，也不会拿非学员案例冒充。如果评估后认为你的目标不切实际，我们会直说并给出更合理的选校方案。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "全程陪伴版具体包含哪些服务？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "包含8项服务：定制选校列表（15-20所）、文书头脑风暴（2轮）、文书不限次修改、中英文简历精修、推荐信指导、面试辅导（2次模拟+题库）、签证辅导（材料清单+模拟面签）、全程进度管理（每周同步+deadline提醒）。以上全部包含，无额外费用。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "国内本科和美本申请有什么不同？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "主要区别在三方面：(1) 语言成绩：国内本科需要考TOEFL，美本通常免托；(2) 推荐信：国内本科推荐信权重较低（招生官知道国内推荐信水分大），需要用GRE和实习来补强；(3) 文书侧重点：国内本科需要在文书中更多解释学术环境和研究经历，招生官可能不了解你的学校。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "咨询是免费的吗？会推销吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "首次咨询完全免费。咨询内容是：了解你的背景和目标，给出诚实的评估和建议。不会强制推销，不会催促签约。我们的原则是：你了解清楚后再做决定。很多咨询过的学生会主动回来签约，因为觉得建议确实有价值。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "签约后多久能匹配到导师？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "签约后24小时内建立专属对接群，S老师本人就是你的全程导师。不存在'等待匹配'或'分配顾问'的环节。全程一对一，你从签约到出结果只有一个对接人。"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- 导航栏 -->
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="index.html" class="logo">SeekingBar</a>
+    <button class="hamburger" aria-label="菜单">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-menu">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="about.html">关于我们</a></li>
+      <li><a href="services.html">服务内容</a></li>
+      <li><a href="cases.html">录取案例</a></li>
+      <li><a href="blog.html">申请资讯</a></li>
+      <li><a href="contact.html" class="active">联系我们</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- 联系我们 Hero -->
+<section class="contact-hero">
+  <div class="container">
+    <h1>想知道你的背景能申到什么档次的学校？</h1>
+    <p>提交基本信息，S老师 24 小时内给你个性化评估报告</p>
+  </div>
+</section>
+
+<!-- 联系我们内容 -->
+<section style="padding:80px 0;">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- 免费评估表单 -->
+      <div class="contact-form" id="eval">
+        <h2 style="font-size:24px;font-weight:600;color:var(--primary);margin-bottom:8px;">免费评估表</h2>
+        <p style="color:var(--text-secondary);margin-bottom:32px;font-size:14px;">填写后 S老师 24 小时内联系你，不收费，不推销</p>
+        <form id="evalForm" action="https://formspree.io/f/your-form-id" method="POST">
+          <div class="form-group">
+            <label for="name">姓名 *</label>
+            <input type="text" id="name" name="name" placeholder="你的称呼" required>
+          </div>
+          <div class="form-group">
+            <label for="contact">微信 / 手机 *</label>
+            <input type="text" id="contact" name="contact" placeholder="方便我们联系你" required>
+          </div>
+          <div class="form-group">
+            <label for="school">目前学校 *</label>
+            <input type="text" id="school" name="school" placeholder="如：北京大学 / NYU" required>
+          </div>
+          <div class="form-group">
+            <label for="major">专业 *</label>
+            <input type="text" id="major" name="major" placeholder="如：统计学 / Computer Science" required>
+          </div>
+          <div class="form-group">
+            <label for="gpa">GPA</label>
+            <input type="text" id="gpa" name="gpa" placeholder="如：3.8 / 88/100">
+          </div>
+          <div class="form-group">
+            <label for="target">目标申请方向</label>
+            <input type="text" id="target" name="target" placeholder="如：数据科学 / 商业分析 / 经济学">
+          </div>
+          <div class="form-group">
+            <label for="timeline">计划申请时间</label>
+            <input type="text" id="timeline" name="timeline" placeholder="如：2027 Fall">
+          </div>
+          <div class="form-group">
+            <label for="message">补充说明</label>
+            <textarea id="message" name="message" placeholder="任何你想补充的信息：实习经历、科研经历、GRE/TOEFL成绩等..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large" style="width:100%;">提交，等待S老师联系</button>
+        </form>
+        <p style="margin-top:16px;font-size:14px;color:var(--text-secondary);">🔒 你的信息仅用于评估，不会泄露给第三方</p>
+      </div>
+
+      <!-- 联系信息 + FAQ -->
+      <div class="contact-info">
+
+        <h3>其他联系方式</h3>
+        <p>📱 微信：seekingbar_studio</p>
+        <p>📧 邮箱：contact@seekingbar.com</p>
+        <p>🕐 咨询时间：每天 10:00-22:00</p>
+
+        <!-- 微信二维码 -->
+        <div style="margin-top:24px;text-align:center;">
+          <img src="logo/qrcode-wechat.png" alt="微信二维码" style="width:160px;height:160px;border-radius:8px;border:1px solid var(--border);">
+          <p style="margin-top:8px;font-size:12px;color:var(--text-secondary);">微信搜索：seekingbar_studio</p>
+        </div>
+
+        <!-- FAQ 区域 -->
+        <div class="faq-list" style="margin-top:48px;">
+          <h2 style="font-size:24px;font-weight:600;color:var(--primary);margin-bottom:32px;">申请前你可能想知道的 12 个问题</h2>
+
+          <div class="faq-item active">
+            <div class="faq-question">
+              <span>SeekingBar 和传统留学中介有什么区别？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>三个核心区别：</strong></p>
+              <p>(1) <strong>导师制一对一 vs 流水线分组</strong> — 你的导师从选校到签证全程跟进，不是不同部门轮番上阵。</p>
+              <p>(2) <strong>文书不限次修改 vs 计次收费</strong> — 改到你满意为止，没有轮次限制。</p>
+              <p>(3) <strong>透明定价 vs 增值收费</strong> — 签约时锁定全部费用，面试辅导、签证辅导不额外收费。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>什么时候开始准备最合适？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>最晚大三下暑假（6-8月）开始。</strong>如果目标是 Top 30 项目，建议从大二开始规划实习和科研。</p>
+              <p>大二 → 规划背景提升（实习+科研）</p>
+              <p>大三上 → 考 GRE/TOEFL</p>
+              <p>大三暑假 → 写文书（7-8月最关键）</p>
+              <p>大四上 → 提交申请（9-12月）</p>
+              <p>大四下 → 收结果 + 签证</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>S老师擅长哪些专业方向？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>主要方向：</strong>统计学、数据科学、商业分析、经济学、金融工程、计算机科学等量化方向。</p>
+              <p>这些方向是辅导案例最多、对行业招生偏好了解最深的领域。如果你的专业不在上述范围内，也欢迎联系，我们会坦诚评估是否适合。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>收费标准和隐形消费</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>没有隐形消费。</strong>三种方案：全程陪伴版、文书精修版、单项咨询。签约时锁定全部费用，中间不加价。首次咨询免费。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>文书修改真的不限次数吗？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>是的。</strong>全程陪伴版和文书精修版均不设修改次数上限，不按字数收费。</p>
+              <p>数据显示：2024-2025 全程陪伴版学员平均修改 10+ 轮。我们的标准是：改到你觉得可以提交为止，不是改到我们觉得可以为止。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>GPA 不高（3.0-3.5）还有机会申 Top 30 吗？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>有机会，但需要其他条件补位。</strong></p>
+              <p>高 GRE（325+）证明学术能力 → 强实习（2-3段）证明实践能力 → 有说服力的文书解释 GPA 趋势。</p>
+              <p>不同专业对 GPA 宽容度：商业分析 > 数据科学 > 计算机科学。建议免费咨询让 S老师评估你的具体情况。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>有退款政策吗？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>全程陪伴版：</strong>签约后 7 天内无条件退款。</p>
+              <p><strong>文书精修版：</strong>第一轮修改交付前可退款。</p>
+              <p><strong>单项咨询：</strong>一次性服务，完成即生效。</p>
+              <p>所有条款合约中详细说明，保证透明公正。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>录取案例都是真实的吗？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>100% 真实。</strong>所有展示的录取案例均为实际签约学员，可提供匿名聊天记录作证。我们不会编造或夸大录取结果。如果评估后认为你的目标不切实际，我们会直说并给出更合理的方案。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>全程陪伴版具体包含什么？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p>8 项服务全覆盖：定制选校列表（15-20所）、文书头脑风暴（2轮）、文书不限次修改、中英文简历精修、推荐信指导、面试辅导（2次模拟+题库）、签证辅导（材料清单+模拟面签）、全程进度管理（每周同步+deadline提醒）。以上全部包含，无额外费用。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>国内本科和美本申请有什么不同？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p>(1) <strong>语言成绩：</strong>国内本科需考 TOEFL，美本通常免托。</p>
+              <p>(2) <strong>推荐信权重：</strong>国内本科推荐信权重较低，需用 GRE 和实习补强。</p>
+              <p>(3) <strong>文书侧重点：</strong>国内本科需在文书中更多解释学术环境和研究经历，因为招生官可能不了解你的学校。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>首次咨询免费吗？会推销吗？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>完全免费，不会推销。</strong>咨询内容：了解你的背景和目标，给出诚实的评估和建议。你了解清楚后再决定是否签约。很多咨询过的学生会主动回来，因为觉得建议确实有价值。</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>签约后多久能匹配到导师？</span>
+              <span>+</span>
+            </div>
+            <div class="faq-answer">
+              <p><strong>签约后 24 小时内建立专属对接群。</strong>S老师本人就是你的全程导师，不存在「等待匹配」或「分配顾问」的环节。全程一对一，你从签约到出结果只有一个对接人。</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>SeekingBar</h4>
+        <p>专注美国研究生申请的一站式陪伴式服务</p>
+      </div>
+      <div class="footer-col">
+        <h4>快速链接</h4>
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="about.html">关于我们</a></li>
+          <li><a href="services.html">服务内容</a></li>
+          <li><a href="cases.html">录取案例</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>联系方式</h4>
+        <p>📱 微信：seekingbar_studio</p>
+        <p>📧 邮箱：contact@seekingbar.com</p>
+        <p>🕐 咨询时间：每天 10:00-22:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 SeekingBar 留学工作室. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- 联系浮窗 -->
+<div class="contact-float">
+  <button class="contact-float-btn" onclick="toggleContactPanel()">💬</button>
+  <div class="contact-panel" id="contactPanel">
+    <h4>联系我们</h4>
+    <p>📱 微信：seekingbar_studio</p>
+    <p>📧 邮箱：contact@seekingbar.com</p>
+    <p>🕐 10:00-22:00</p>
+    <img src="logo/qrcode-wechat.png" alt="微信二维码" style="width:100%;border-radius:8px;margin-top:12px;border:1px solid var(--border);">
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
