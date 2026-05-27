@@ -3,310 +3,223 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>美国研究生录取案例 | 不同背景都能申到什么Offer？</title>
-  <meta name="description" content="美国研究生真实录取案例汇总。不同背景（美本/国内985/211/双非）分别能申到什么档次的学校？含学生自述和导师点评。">
-  <meta property="og:title" content="美国研究生录取案例 | 这些背景都拿到了哪些Offer？">
-  <meta property="og:description" content="真实录取案例汇总，不同背景分别能申到什么档次学校？">
+  <title>录取案例 | SeekingBar留学工作室</title>
+  <meta name="description" content="SeekingBar真实学员录取案例：Princeton、Yale、UPenn等顶尖项目。点击查看学员背景、S老师点评和申请策略。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "SeekingBar 留学工作室录取案例",
-    "description": "美国研究生真实录取案例汇总",
-    "url": "https://www.seekingbar.com/cases.html"
-  }
-  </script>
 </head>
 <body>
 
 <!-- 导航栏 -->
-<nav class="navbar">
-  <div class="container nav-container">
-    <a href="index.html" class="logo">SeekingBar</a>
-    <button class="hamburger" aria-label="菜单">
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="logo/logo.png" alt="SeekingBar">
+      <div class="nav-logo-texts">
+        <span class="nav-logo-en">SeekingBar</span>
+        <span class="nav-logo-cn">留学工作室</span>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="about.html">关于我们</a>
+      <a href="services.html">服务内容</a>
+      <a href="cases.html" class="active">录取案例</a>
+      <a href="blog.html">留学资讯</a>
+      <a href="contact.html" class="nav-cta">立即咨询</a>
+    </div>
+    <button class="nav-mobile-toggle" aria-label="菜单">
       <span></span><span></span><span></span>
     </button>
-    <ul class="nav-menu">
-      <li><a href="index.html">首页</a></li>
-      <li><a href="about.html">关于我们</a></li>
-      <li><a href="services.html">服务内容</a></li>
-      <li><a href="cases.html" class="active">录取案例</a></li>
-      <li><a href="blog.html">申请资讯</a></li>
-      <li><a href="contact.html">联系我们</a></li>
-    </ul>
   </div>
 </nav>
 
-<!-- 案例页面 Hero -->
-<section class="about-hero">
-  <div class="container">
-    <h1>这些背景都拿到了什么 Offer？看真实案例，判断你的定位</h1>
-    <p>所有案例均为真实学员，按背景分类，方便你找到和自己情况相近的参考</p>
-  </div>
-</section>
-
-<!-- 案例统计 -->
-<section style="padding:32px 0;background:#fff;">
-  <div class="container">
-    <div class="data-grid" style="grid-template-columns:repeat(3,1fr);">
-      <div class="data-card">
-        <div class="data-number">[待补充]</div>
-        <div class="data-label">累计辅导学员</div>
-        <div class="data-source">2022-2026 签约学员总数</div>
-      </div>
-      <div class="data-card">
-        <div class="data-number">90%+</div>
-        <div class="data-label">Top 30 录取率</div>
-        <div class="data-source">2022-2026 学员录取结果</div>
-      </div>
-      <div class="data-card">
-        <div class="data-number">100%</div>
-        <div class="data-label">至少获得一个录取</div>
-        <div class="data-source">2022-2026 全部签约学员</div>
-      </div>
+<!-- Hero -->
+<section class="hero" style="min-height:55vh;">
+  <div class="container" style="padding-top:140px;padding-bottom:60px;text-align:center;">
+    <div class="hero-badge">Admission Cases · 录取案例</div>
+    <h1 class="hero-title">580+ 封录取通知<br>93% Top10 顶尖项目</h1>
+    <p class="hero-subtitle">真实学员 · 匿名可查 · 点击查看详细背景和申请策略</p>
+    <div style="display:flex;justify-content:center;gap:16px;margin-top:32px;flex-wrap:wrap;">
+      <a href="contact.html" class="btn" style="background:#fff;color:#1B4332;border:1.5px solid #1B4332;padding:14px 32px;border-radius:8px;font-weight:600;">预约咨询</a>
+      <a href="#cases" class="btn" style="background:rgba(255,255,255,.15);color:#fff;border:1.5px solid rgba(255,255,255,.3);padding:14px 32px;border-radius:8px;">查看案例</a>
     </div>
   </div>
 </section>
 
-<!-- 筛选栏 -->
-<section class="cases-filter">
+<!-- 统计卡片 (v1深绿4色风格) -->
+<section style="padding:60px 0;background:#fff;">
   <div class="container">
-    <div class="filter-bar">
-      <select>
-        <option>全部背景</option>
-        <option>美本</option>
-        <option>国内 985</option>
-        <option>国内 211</option>
-        <option>国内双非</option>
-        <option>海外本科（非美）</option>
-      </select>
-      <select>
-        <option>全部专业方向</option>
-        <option>统计学</option>
-        <option>数据科学</option>
-        <option>商业分析</option>
-        <option>计算机科学</option>
-        <option>经济学</option>
-        <option>金融工程</option>
-        <option>其他</option>
-      </select>
-      <select>
-        <option>全部学校档次</option>
-        <option>Top 10</option>
-        <option>Top 30</option>
-        <option>Top 50</option>
-      </select>
-      <select>
-        <option>全部服务类型</option>
-        <option>全程陪伴版</option>
-        <option>文书精修版</option>
-        <option>单项咨询</option>
-      </select>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
+      <div style="background:#deede0;border:1.5px solid #c5d9c7;border-radius:16px;padding:28px 20px;text-align:center;">
+        <div style="font-family:var(--font-display);font-size:2.4rem;font-weight:700;color:#1B4332;">580+</div>
+        <div style="font-size:.88rem;color:rgba(30,30,30,.8);font-weight:500;margin-top:8px;">累计录取通知</div>
+      </div>
+      <div style="background:#e4ecf2;border:1.5px solid #c8d4df;border-radius:16px;padding:28px 20px;text-align:center;">
+        <div style="font-family:var(--font-display);font-size:2.4rem;font-weight:700;color:#1B4332;">93%</div>
+        <div style="font-size:.88rem;color:rgba(30,30,30,.8);font-weight:500;margin-top:8px;">Top10顶尖项目</div>
+      </div>
+      <div style="background:#f2ebe1;border:1.5px solid #e0d8cc;border-radius:16px;padding:28px 20px;text-align:center;">
+        <div style="font-family:var(--font-display);font-size:2.4rem;font-weight:700;color:#1B4332;">100%</div>
+        <div style="font-size:.88rem;color:rgba(30,30,30,.8);font-weight:500;margin-top:8px;">Top50保录取</div>
+      </div>
+      <div style="background:#f2e6ec;border:1.5px solid #ddd0d9;border-radius:16px;padding:28px 20px;text-align:center;">
+        <div style="font-family:var(--font-display);font-size:2.4rem;font-weight:700;color:#1B4332;">9年</div>
+        <div style="font-size:.88rem;color:rgba(30,30,30,.8);font-weight:500;margin-top:8px;">专注研究生申请</div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- 案例列表 -->
-<section class="cases-all">
+<!-- 案例展示 -->
+<section class="admissions" id="cases">
   <div class="container">
-
-    <div class="cases-grid">
-
-      <!-- 案例1：唯一真实案例 -->
-      <div class="case-card" id="case1">
-        <div class="case-header">
-          <div class="case-avatar">A</div>
-          <div class="case-meta">
-            <h4>A同学</h4>
-            <p>美本 · 统计学 & 经济学 双专业</p>
-          </div>
-        </div>
-        <div class="case-tags" style="margin-bottom:12px;">
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);margin-right:8px;">2022 Fall</span>
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);margin-right:8px;">全程陪伴版</span>
-          <span style="background:#e8f5e9;padding:4px 8px;border-radius:4px;font-size:12px;color:var(--success);">Top 30</span>
-        </div>
-        <div class="case-result">🎉 UNC Chapel Hill · Statistics & Economics</div>
-        <div class="case-summary">
-          美本统计学+经济学双专业 GPA [待补充]，3段暑期实习（研究院/商业银行/券商 IBD）。S老师根据她的背景定制选校列表，文书反复修改 10+ 轮，最终成功录取。
-        </div>
-        <details style="margin-top:12px;">
-          <summary style="cursor:pointer;color:var(--primary);font-weight:500;">查看完整申请经验</summary>
-          <div style="margin-top:16px;line-height:1.8;color:var(--text-secondary);">
-            <h4 style="color:var(--text);margin-bottom:8px;">前期准备</h4>
-            <p><strong>标化：</strong>由于我是美本，所以并没有在申请研究生之前考托福。GPA对于美本来说可以说是至关重要的，我认为一个比较高的GPA（maybe 3.8+ 属于比较高）是申请大牛项目的敲门砖...</p>
-            <br>
-            <p><strong>实习：</strong>我总共就3段暑期实习，一段研究院数据consulting类，一段商业银行、一段券商IBD...</p>
-            <br>
-            <p><strong>科研：</strong>我大学四年在学校里做了蛮多project & research的，最后挑选出来了四个放到简历上...</p>
-            <br>
-            <h4 style="color:var(--text);margin-bottom:8px;">申请过程</h4>
-            <p><strong>选校：</strong>选校环节必须大大夸奖S老师。根据我对项目种类和排名，她给了我一个超级详细选校list...</p>
-            <br>
-            <p><strong>文书：</strong>文书真的是申请过程中太重要的一步了。在神仙打架的项目申请者之中，能体现你的特色的唯独是文书...</p>
-            <br>
-            <h4 style="color:var(--primary);margin-top:16px;">S老师点评</h4>
-            <p style="background:#e8f5e9;padding:12px;border-radius:4px;color:var(--success);">A同学是一个非常有计划性的学生，从大二开始就明确了申请方向。她的优势在于持续的科研经历和清晰的career plan，这是美国Top项目非常看重的。文书我们反复修改了10+遍，最终成功拿下多个Top项目offer。为她感到骄傲！</p>
-          </div>
-        </details>
-      </div>
-
-      <!-- 案例2：占位 -->
-      <div class="case-card" id="case2">
-        <div class="case-header">
-          <div class="case-avatar" style="background:var(--primary);">B</div>
-          <div class="case-meta">
-            <h4>B同学</h4>
-            <p>国内 985 · 计算机科学</p>
-          </div>
-        </div>
-        <div class="case-tags" style="margin-bottom:12px;">
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);margin-right:8px;">2023 Fall</span>
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);margin-right:8px;">全程陪伴版</span>
-          <span style="background:#e8f5e9;padding:4px 8px;border-radius:4px;font-size:12px;color:var(--success);">Top 30</span>
-        </div>
-        <div class="case-result">🎉 CMU · MCDS / Columbia · CS</div>
-        <div class="case-summary">
-          国内985计算机专业，GPA [待补充]，无托福（有雅思），2段科研+1段大厂实习。文书重点突出科研经历和独立解决问题的能力，成功拿到 CMU MCDS 等多个录取。
-        </div>
-        <details style="margin-top:12px;">
-          <summary style="cursor:pointer;color:var(--primary);font-weight:500;">查看完整申请经验</summary>
-          <div style="margin-top:16px;line-height:1.8;color:var(--text-secondary);">
-            <h4 style="color:var(--text);margin-bottom:8px;">前期准备</h4>
-            <p>[待补充：B同学自述 — GPA、标化、实习、科研等背景准备]</p>
-            <br>
-            <h4 style="color:var(--text);margin-bottom:8px;">申请过程</h4>
-            <p>[待补充：B同学自述 — 选校、文书、面试等过程的感受和经验]</p>
-            <br>
-            <h4 style="color:var(--primary);margin-top:16px;">S老师点评</h4>
-            <p style="background:#e8f5e9;padding:12px;border-radius:4px;color:var(--success);">[待补充：S老师点评 — 学生的核心优势是什么，过程中克服了什么困难，最终为什么能成功]</p>
-          </div>
-        </details>
-      </div>
-
-      <!-- 案例3：占位 -->
-      <div class="case-card" id="case3">
-        <div class="case-header">
-          <div class="case-avatar" style="background:var(--primary);">C</div>
-          <div class="case-meta">
-            <h4>C同学</h4>
-            <p>国内 211 · 经济学</p>
-          </div>
-        </div>
-        <div class="case-tags" style="margin-bottom:12px;">
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);margin-right:8px;">2024 Spring</span>
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);margin-right:8px;">文书精修版</span>
-          <span style="background:#e3f2fd;padding:4px 8px;border-radius:4px;font-size:12px;color:#1565c0;">Top 50</span>
-        </div>
-        <div class="case-result">🎉 Cornell · AEM / Umich · Economics</div>
-        <div class="case-summary">
-          国内211经济学专业，GPA 3.7+，雅思 7.5，GRE 325+。有2段行研实习和1段咨询PTA经历。DIY申请了部分学校，找S老师精修了主文书，成功冲刺 Cornell AEM。
-        </div>
-        <details style="margin-top:12px;">
-          <summary style="cursor:pointer;color:var(--primary);font-weight:500;">查看完整申请经验</summary>
-          <div style="margin-top:16px;line-height:1.8;color:var(--text-secondary);">
-            <h4 style="color:var(--text);margin-bottom:8px;">前期准备</h4>
-            <p>[待补充：C同学自述]</p>
-            <h4 style="color:var(--text);margin-bottom:8px;">申请过程</h4>
-            <p>[待补充：C同学自述]</p>
-            <h4 style="color:var(--primary);margin-top:16px;">S老师点评</h4>
-            <p style="background:#e8f5e9;padding:12px;border-radius:4px;color:var(--success);">[待补充：S老师点评]</p>
-          </div>
-        </details>
-      </div>
-
-      <!-- 案例4-6：简洁占位 -->
-      <div class="case-card" id="case4">
-        <div class="case-header">
-          <div class="case-avatar" style="background:#e0e0e0;color:#757575;">?</div>
-          <div class="case-meta">
-            <h4>[第四位学员]</h4>
-            <p>[本科背景] · [专业]</p>
-          </div>
-        </div>
-        <div class="case-tags" style="margin-bottom:12px;">
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);margin-right:8px;">[年份]</span>
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);">待补充</span>
-        </div>
-        <div class="case-result">🎉 [录取学校] · [项目]</div>
-        <div class="case-summary">
-          [学员背景简介：GPA/标化成绩/实习或科研经历，一句话概括关键优势]
-        </div>
-        <details style="margin-top:12px;">
-          <summary style="cursor:pointer;color:var(--primary);font-weight:500;">查看完整申请经验</summary>
-          <div style="margin-top:16px;line-height:1.8;color:var(--text-secondary);">
-            <p style="color:#ccc;font-style:italic;">[待补充学员自述和S老师点评 — 请联系 S老师补充此案例内容]</p>
-          </div>
-        </details>
-      </div>
-
-      <div class="case-card" id="case5">
-        <div class="case-header">
-          <div class="case-avatar" style="background:#e0e0e0;color:#757575;">?</div>
-          <div class="case-meta">
-            <h4>[第五位学员]</h4>
-            <p>[本科背景] · [专业]</p>
-          </div>
-        </div>
-        <div class="case-tags" style="margin-bottom:12px;">
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);margin-right:8px;">[年份]</span>
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);">待补充</span>
-        </div>
-        <div class="case-result">🎉 [录取学校] · [项目]</div>
-        <div class="case-summary">
-          [学员背景简介]
-        </div>
-        <details style="margin-top:12px;">
-          <summary style="cursor:pointer;color:var(--primary);font-weight:500;">查看完整申请经验</summary>
-          <div style="margin-top:16px;line-height:1.8;color:var(--text-secondary);">
-            <p style="color:#ccc;font-style:italic;">[待补充 — 请联系 S老师补充此案例内容]</p>
-          </div>
-        </details>
-      </div>
-
-      <div class="case-card" id="case6">
-        <div class="case-header">
-          <div class="case-avatar" style="background:#e0e0e0;color:#757575;">?</div>
-          <div class="case-meta">
-            <h4>[第六位学员]</h4>
-            <p>[本科背景] · [专业]</p>
-          </div>
-        </div>
-        <div class="case-tags" style="margin-bottom:12px;">
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);margin-right:8px;">[年份]</span>
-          <span style="background:var(--secondary);padding:4px 8px;border-radius:4px;font-size:12px;color:var(--primary);">待补充</span>
-        </div>
-        <div class="case-result">🎉 [录取学校] · [项目]</div>
-        <div class="case-summary">
-          [学员背景简介]
-        </div>
-        <details style="margin-top:12px;">
-          <summary style="cursor:pointer;color:var(--primary);font-weight:500;">查看完整申请经验</summary>
-          <div style="margin-top:16px;line-height:1.8;color:var(--text-secondary);">
-            <p style="color:#ccc;font-style:italic;">[待补充 — 请联系 S老师补充此案例内容]</p>
-          </div>
-        </details>
-      </div>
-
+    <div class="section-header">
+      <div class="section-tag">Student Cases</div>
+      <h2 class="section-title">部分学员录取案例</h2>
+      <p class="section-subtitle">点击卡片查看学员背景、文书策略和S老师点评</p>
     </div>
 
-    <!-- 分页器（占位） -->
-    <div class="pagination">
-      <a href="#" class="active">1</a>
-      <a href="#">2</a>
-      <a href="#">→</a>
+    <!-- 案例1：A同学 - Princeton MSE -->
+    <div class="adm-card" onclick="openModal('olivia')" style="background:#fff;border:2px solid var(--navy);border-radius:20px;padding:32px;margin-bottom:24px;cursor:pointer;transition:all .3s;display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;">
+      <div style="flex:0 0 auto;">
+        <div class="avatar-penn" style="width:80px;height:80px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;color:#fff;background:linear-gradient(135deg,#011F5B,#990000);">A</div>
+      </div>
+      <div style="flex:1;min-width:200px;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap;">
+          <strong style="font-size:18px;">A同学（化名）</strong>
+          <span style="background:#deede0;color:#1B4332;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;">Princeton MSE</span>
+          <span style="background:#e8f0eb;color:#2D6A4F;padding:4px 10px;border-radius:20px;font-size:12px;">Statistics</span>
+        </div>
+        <p style="color:var(--text-secondary);font-size:14px;line-height:1.8;margin-bottom:12px;">GPA: [请补充] / GRE: [请补充] / TOEFL: [请补充]<br>本科：[请补充院校] 统计 | 3段科研 + 2封强推</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="background:#fef3e2;color:#E07B39;padding:3px 8px;border-radius:6px;font-size:11px;">点击查看详情</span>
+          <span style="background:#f5e6ec;color:#b5436a;padding:3px 8px;border-radius:6px;font-size:11px;">S老师点评</span>
+        </div>
+      </div>
     </div>
 
+    <!-- 案例2：B同学 - Harvard MS -->
+    <div class="adm-card" onclick="openModal('b')" style="background:#fff;border:2px solid #e8c89a;border-radius:20px;padding:32px;margin-bottom:24px;cursor:pointer;transition:all .3s;display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;">
+      <div style="flex:0 0 auto;">
+        <div style="width:80px;height:80px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;color:#fff;background:linear-gradient(135deg,#8B0000,#DC143C);">B</div>
+      </div>
+      <div style="flex:1;min-width:200px;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap;">
+          <strong style="font-size:18px;">B同学（化名）</strong>
+          <span style="background:#fef3e2;color:#E07B39;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;">Harvard MS</span>
+          <span style="background:#e8f0eb;color:#2D6A4F;padding:4px 10px;border-radius:20px;font-size:12px;">Data Science</span>
+        </div>
+        <p style="color:var(--text-secondary);font-size:14px;line-height:1.8;margin-bottom:12px;">GPA: [请补充] / GRE: [请补充] / TOEFL: [请补充]<br>本科：[请补充院校] 计算机 | [请补充科研]</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="background:#fef3e2;color:#E07B39;padding:3px 8px;border-radius:6px;font-size:11px;">点击查看详情</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 其他案例（简化卡片） -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px;">
+      <div onclick="openModal('e')" style="background:#fff;border:1.5px solid #c8d4df;border-radius:16px;padding:24px;cursor:pointer;transition:all .3s;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#011F5B,#990000);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:14px;">C</div>
+          <div>
+            <strong style="font-size:14px;">C同学</strong>
+            <div style="font-size:12px;color:#E07B39;font-weight:600;">UPenn MSE Data Science</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--text-secondary);">本科：[请补充] | GPA：[请补充]</p>
+      </div>
+
+      <div onclick="openModal('f')" style="background:#fff;border:1.5px solid #c8d4df;border-radius:16px;padding:24px;cursor:pointer;transition:all .3s;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#003087,#00843D);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:14px;">D</div>
+          <div>
+            <strong style="font-size:14px;">D同学</strong>
+            <div style="font-size:12px;color:#E07B39;font-weight:600;">Princeton MSE</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--text-secondary);">本科：[请补充] | GPA：[请补充]</p>
+      </div>
+
+      <div onclick="openModal('g')" style="background:#fff;border:1.5px solid #c8d4df;border-radius:16px;padding:24px;cursor:pointer;transition:all .3s;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#003087,#DC143C);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:14px;">E</div>
+          <div>
+            <strong style="font-size:14px;">E同学</strong>
+            <div style="font-size:12px;color:#E07B39;font-weight:600;">Yale MS Biostatistics</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--text-secondary);">本科：[请补充] | GPA：[请补充]</p>
+      </div>
+
+      <div onclick="openModal('h')" style="background:#fff;border:1.5px solid #c8d4df;border-radius:16px;padding:24px;cursor:pointer;transition:all .3s;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+          <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#FDB927,#000);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:14px;">F</div>
+          <div>
+            <strong style="font-size:14px;">F同学</strong>
+            <div style="font-size:12px;color:#E07B39;font-weight:600;">Caltech MSE</div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--text-secondary);">本科：[请补充] | GPA：[请补充]</p>
+      </div>
+    </div>
+
+    <p style="text-align:center;color:var(--text-secondary);font-size:14px;margin-top:24px;">[请补充更多学员案例，包含完整背景和S老师点评]</p>
+  </div>
+</section>
+
+<!-- 申请方向 -->
+<section style="padding:80px 0;background:#f8f8f6;">
+  <div class="container">
+    <div class="section-header" style="text-align:center;margin-bottom:40px;">
+      <div class="section-tag">Destinations</div>
+      <h2 class="section-title">我们擅长的申请方向</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+      <div style="background:#fff;border:1.5px solid #e5e5e0;border-radius:16px;padding:24px;text-align:center;">
+        <img src="logo/flag-us.svg" alt="美国" style="width:48px;height:32px;border-radius:4px;margin-bottom:12px;" onerror="this.style.display='none'">
+        <h4>美国</h4>
+        <p style="font-size:13px;color:var(--text-secondary);margin-top:8px;">Statistics, DS, BA, MFE, CS, Economics等</p>
+      </div>
+      <div style="background:#fff;border:1.5px solid #e5e5e0;border-radius:16px;padding:24px;text-align:center;">
+        <img src="logo/flag-uk.svg" alt="英国" style="width:48px;height:32px;border-radius:4px;margin-bottom:12px;" onerror="this.style.display='none'">
+        <h4>英国</h4>
+        <p style="font-size:13px;color:var(--text-secondary);margin-top:8px;">Oxford, Cambridge, LSE, IC等</p>
+      </div>
+      <div style="background:#fff;border:1.5px solid #e5e5e0;border-radius:16px;padding:24px;text-align:center;">
+        <img src="logo/flag-hk.svg" alt="香港" style="width:48px;height:32px;border-radius:4px;margin-bottom:12px;" onerror="this.style.display='none'">
+        <h4>香港</h4>
+        <p style="font-size:13px;color:var(--text-secondary);margin-top:8px;">HKU, CUHK, HKUST</p>
+      </div>
+      <div style="background:#fff;border:1.5px solid #e5e5e0;border-radius:16px;padding:24px;text-align:center;">
+        <img src="logo/flag-sg.svg" alt="新加坡" style="width:48px;height:32px;border-radius:4px;margin-bottom:12px;" onerror="this.style.display='none'">
+        <h4>新加坡</h4>
+        <p style="font-size:13px;color:var(--text-secondary);margin-top:8px;">NUS, NTU</p>
+      </div>
+      <div style="background:#fff;border:1.5px solid #e5e5e0;border-radius:16px;padding:24px;text-align:center;">
+        <img src="logo/flag-ca.svg" alt="加拿大" style="width:48px;height:32px;border-radius:4px;margin-bottom:12px;" onerror="this.style.display='none'">
+        <h4>加拿大</h4>
+        <p style="font-size:13px;color:var(--text-secondary);margin-top:8px;">UofT, UBC, McGill</p>
+      </div>
+      <div style="background:#fff;border:1.5px solid #e5e5e0;border-radius:16px;padding:24px;text-align:center;">
+        <img src="logo/flag-eu.svg" alt="欧洲" style="width:48px;height:32px;border-radius:4px;margin-bottom:12px;" onerror="this.style.display='none'">
+        <h4>欧洲</h4>
+        <p style="font-size:13px;color:var(--text-secondary);margin-top:8px;">ETH Zurich, EPFL, HEC Paris等</p>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- CTA -->
 <section class="cta-section">
   <div class="container">
-    <h2>想看和你背景相似的案例？或者直接评估你自己的录取概率？</h2>
-    <p>提交基本信息，S老师 24 小时内回复</p>
-    <a href="contact.html#eval" class="btn btn-primary btn-large">免费评估我的录取概率</a>
+    <h2>想知道以你的背景，能申到哪些学校？</h2>
+    <p>预约免费咨询，S老师给你一个客观的评估</p>
+    <div style="text-align:center;margin-top:40px;">
+      <a href="contact.html" class="btn btn-cta">填写信息，S老师主动联系你</a>
+    </div>
   </div>
 </section>
 
@@ -314,9 +227,15 @@
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
-      <div class="footer-col">
-        <h4>SeekingBar</h4>
-        <p>专注美国研究生申请的一站式陪伴式服务</p>
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          <img src="logo/logo.png" alt="SeekingBar">
+          <div>
+            <div class="footer-logo-en">SeekingBar</div>
+            <div class="footer-logo-cn">留学工作室</div>
+          </div>
+        </a>
+        <p class="footer-brand-desc">一对一陪伴式美国研究生申请服务</p>
       </div>
       <div class="footer-col">
         <h4>快速链接</h4>
@@ -325,32 +244,158 @@
           <li><a href="about.html">关于我们</a></li>
           <li><a href="services.html">服务内容</a></li>
           <li><a href="cases.html">录取案例</a></li>
+          <li><a href="contact.html">联系我们</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>联系方式</h4>
-        <p>📱 微信：seekingbar_studio</p>
-        <p>📧 邮箱：contact@seekingbar.com</p>
-        <p>🕐 咨询时间：每天 10:00-22:00</p>
+        <h4>申请方向</h4>
+        <ul>
+          <li><a href="cases.html">美国</a></li>
+          <li><a href="cases.html">英国</a></li>
+          <li><a href="cases.html">香港</a></li>
+          <li><a href="cases.html">新加坡</a></li>
+          <li><a href="cases.html">加拿大</a></li>
+          <li><a href="cases.html">欧洲</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>联系咨询</h4>
+        <ul>
+          <li>微信：seekingbar_studio</li>
+          <li>contact@seekingbar.com</li>
+          <li>咨询时间：每天10:00-22:00</li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 SeekingBar 留学工作室. All rights reserved.</p>
+      <p>&copy; 2026 SeekingBar留学工作室</p>
     </div>
   </div>
 </footer>
 
-<div class="contact-float">
-  <button class="contact-float-btn" onclick="toggleContactPanel()">💬</button>
-  <div class="contact-panel" id="contactPanel">
-    <h4>联系我们</h4>
-    <p>📱 微信：seekingbar_studio</p>
-    <p>📧 邮箱：contact@seekingbar.com</p>
-    <p>🕐 10:00-22:00</p>
-    <img src="logo/qrcode-wechat.png" alt="微信二维码" style="width:100%;border-radius:8px;margin-top:12px;border:1px solid var(--border);">
+<!-- 模态框示例 (Princeton MSE) -->
+<div class="modal-overlay" id="modal-olivia" onclick="if(event.target===this)closeModal('olivia')">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('olivia')">&times;</button>
+    <div class="modal-header" style="background:linear-gradient(135deg,#011F5B,#990000);color:#fff;">
+      <div style="display:flex;align-items:center;gap:16px;">
+        <div style="width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;">A</div>
+        <div>
+          <h3>A同学（化名）</h3>
+          <div style="opacity:.8;font-size:14px;">Princeton MSE · Statistics</div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-body" style="padding:32px;line-height:1.8;">
+      <h4 style="color:var(--navy);margin-bottom:8px;">学生背景</h4>
+      <p>GPA: [请补充] / GRE: [请补充] / TOEFL: [请补充]<br>本科：[请补充院校] 统计专业<br>3段科研经历 + 2封强推</p>
+      <br>
+      <h4 style="color:var(--navy);margin-bottom:8px;">学生自述</h4>
+      <p style="font-style:italic;color:var(--text-secondary);">[请补充学生真实自述内容]</p>
+      <br>
+      <h4 style="color:var(--navy);margin-bottom:8px;">S老师点评</h4>
+      <p>[请补充S老师对这位学生的评价，包括文书策略、选校逻辑、面试准备等]</p>
+    </div>
   </div>
 </div>
 
-<script src="main.js"></script>
+<!-- 模态框 Harvard MS -->
+<div class="modal-overlay" id="modal-b" onclick="if(event.target===this)closeModal('b')">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('b')">&times;</button>
+    <div class="modal-header" style="background:linear-gradient(135deg,#8B0000,#DC143C);color:#fff;">
+      <div style="display:flex;align-items:center;gap:16px;">
+        <div style="width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;">B</div>
+        <div>
+          <h3>B同学（化名）</h3>
+          <div style="opacity:.8;font-size:14px;">Harvard MS · Data Science</div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-body" style="padding:32px;line-height:1.8;">
+      <h4 style="color:var(--navy);margin-bottom:8px;">学生背景</h4>
+      <p>GPA: [请补充] / GRE: [请补充] / TOEFL: [请补充]<br>本科：[请补充院校] 计算机专业<br>[请补充科研/实习]</p>
+      <br>
+      <h4 style="color:var(--navy);margin-bottom:8px;">学生自述</h4>
+      <p style="font-style:italic;color:var(--text-secondary);">[请补充学生真实自述]</p>
+      <br>
+      <h4 style="color:var(--navy);margin-bottom:8px;">S老师点评</h4>
+      <p>[请补充S老师点评]</p>
+    </div>
+  </div>
+</div>
+
+<!-- 更多模态框 (简化) -->
+<div class="modal-overlay" id="modal-e" onclick="if(event.target===this)closeModal('e')">
+  <div class="modal" style="max-width:600px;">
+    <button class="modal-close" onclick="closeModal('e')">&times;</button>
+    <div class="modal-header" style="background:var(--navy);color:#fff;">
+      <h3>C同学（化名）· UPenn MSE Data Science</h3>
+    </div>
+    <div class="modal-body">
+      <p><strong>背景：</strong>[请补充]</p>
+      <br>
+      <p><strong>学生自述：</strong>[请补充]</p>
+      <br>
+      <p><strong>S老师点评：</strong>[请补充]</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-f" onclick="if(event.target===this)closeModal('f')">
+  <div class="modal" style="max-width:600px;">
+    <button class="modal-close" onclick="closeModal('f')">&times;</button>
+    <div class="modal-header" style="background:var(--navy);color:#fff;">
+      <h3>D同学（化名）· Princeton MSE</h3>
+    </div>
+    <div class="modal-body">
+      <p><strong>背景：</strong>[请补充]</p>
+      <br>
+      <p><strong>学生自述：</strong>[请补充]</p>
+      <br>
+      <p><strong>S老师点评：</strong>[请补充]</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-g" onclick="if(event.target===this)closeModal('g')">
+  <div class="modal" style="max-width:600px;">
+    <button class="modal-close" onclick="closeModal('g')">&times;</button>
+    <div class="modal-header" style="background:var(--navy);color:#fff;">
+      <h3>E同学（化名）· Yale MS Biostatistics</h3>
+    </div>
+    <div class="modal-body">
+      <p><strong>背景：</strong>[请补充]</p>
+      <br>
+      <p><strong>学生自述：</strong>[请补充]</p>
+      <br>
+      <p><strong>S老师点评：</strong>[请补充]</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-h" onclick="if(event.target===this)closeModal('h')">
+  <div class="modal" style="max-width:600px;">
+    <button class="modal-close" onclick="closeModal('h')">&times;</button>
+    <div class="modal-header" style="background:var(--navy);color:#fff;">
+      <h3>F同学（化名）· Caltech MSE</h3>
+    </div>
+    <div class="modal-body">
+      <p><strong>背景：</strong>[请补充]</p>
+      <br>
+      <p><strong>学生自述：</strong>[请补充]</p>
+      <br>
+      <p><strong>S老师点评：</strong>[请补充]</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal(id){document.getElementById('modal-'+id).style.display='flex'}
+function closeModal(id){document.getElementById('modal-'+id).style.display='none'}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')document.querySelectorAll('.modal-overlay').forEach(m=>m.style.display='none')});
+document.querySelectorAll('.adm-card').forEach(function(c){c.addEventListener('mouseenter',function(){this.style.transform='translateY(-4px)';this.style.boxShadow='0 12px 40px rgba(0,0,0,.12)'});c.addEventListener('mouseleave',function(){this.style.transform='';this.style.boxShadow=''})});
+document.querySelector('.nav-mobile-toggle')?.addEventListener('click',function(){document.querySelector('.nav-links')?.classList.toggle('active')});
+</script>
 </body>
 </html>
