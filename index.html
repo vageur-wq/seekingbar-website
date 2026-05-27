@@ -9,7 +9,7 @@
   <meta property="og:description" content="Top 30 录取率 90%+，文书不限次修改，2024-2026 学员真实数据。">
   <meta property="og:image" content="https://www.seekingbar.com/og-image.jpg">
   <meta property="og:url" content="https://www.seekingbar.com">
-  <link rel="stylesheet" href="style.css">
+  
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -28,228 +28,1103 @@
 <body>
 
 <!-- 导航栏 -->
-<nav class="navbar">
-  <div class="container nav-container">
-    <a href="index.html" class="logo">SeekingBar</a>
-    <button class="hamburger" aria-label="菜单">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="nav-menu">
-      <li><a href="index.html" class="active">首页</a></li>
+<style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SeekingBar 留学工作室 | 专注研究生申请的一站式陪伴</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="font" crossorigin href="https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQAllvuQ.woff2">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap">
+<style>
+
+
+:root{--bg:#FAFAF7;--bg-warm:#F5F5F1;--bg-card:#F0F4F0;--bg-dark:#1B4332;--navy:#1B4332;--navy-deep:#2D6A4F;--navy-soft:#E8F0EB;--amber:#E07B39;--amber-soft:#FDF0E6;--text:#1A1A1A;--text-2:#4A5568;--text-3:#718096;--border:#E5E5E0;--border-2:#D5D5D0;--bg-section-alt:#F0F4F0;--bg-warm-alt:#F7F5F0;--radius:16px;--radius-lg:24px;--font-display:"Playfair Display","Noto Serif SC",serif;--font-body:"Inter","Noto Serif SC",sans-serif;--font-cn:"Noto Serif SC",serif;--ease:cubic-bezier(.22,1,.36,1);--shadow:0 4px 20px rgba(0,0,0,.05);--shadow-lg:0 12px 40px rgba(0,0,0,.08)}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{font-size:16px;scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{font-size:1rem;font-family:var(--font-body);background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.75;letter-spacing:-.01em}
+::selection{background:var(--navy);color:#fff}
+a{color:inherit;text-decoration:none}
+.container{max-width:1200px;margin:0 auto;padding:0 40px}
+.container-lg{max-width:1400px;margin:0 auto;padding:0 40px}
+.reveal{opacity:0;transform:translateY(40px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-d1{transition-delay:.12s}.reveal-d2{transition-delay:.24s}.reveal-d3{transition-delay:.36s}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes gentleFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes gradientShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@keyframes scaleIn{from{opacity:0;transform:scale(.95) translateY(20px)}to{opacity:1;transform:scale(1) translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:#0A2818;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:0 auto;padding:0 40px;height:68px;gap:0;width:100%}
+.nav-logo{display:flex;align-items:center;gap:10px;transition:opacity .25s}
+.nav-logo:hover{opacity:.8}
+.nav-logo img{width:38px;height:38px;border-radius:8px;object-fit:cover}
+.nav-logo-text{font-size:1rem;font-weight:700;color:var(--navy);letter-spacing:-.02em}
+.nav-right{display:flex;align-items:center;gap:0}
+.nav-links{display:flex;align-items:center;gap:0;list-style:none;margin:0;padding:0;flex:1;justify-content:center}
+.nav-links li{margin:0}
+.nav-links a{display:block;padding:8px 18px;font-size:.88rem;font-weight:500;color:rgba(255,255,255,.9);transition:color .2s;letter-spacing:-.01em}
+.nav-links a:hover{color:#4ADE80}
+.nav-links .nav-cta{display:inline-flex;align-items:center;padding:10px 24px;background:#4ADE80;color:#0A2818;font-size:.85rem;font-weight:700;border-radius:100px;transition:all .25s;letter-spacing:0}
+.nav-links .nav-cta:hover{background:var(--navy-deep);transform:translateY(-1px);box-shadow:0 4px 14px rgba(27,67,50,.2)}
+.menu-toggle{display:flex;flex-direction:column;justify-content:center;align-items:flex-end;gap:5px;width:36px;height:36px;background:none;border:none;cursor:pointer;padding:8px;border-radius:8px;transition:background .2s;flex-shrink:0}
+.menu-toggle:hover{background:rgba(255,255,255,.1)}
+.menu-toggle span{display:block;width:22px;height:2.5px;background:#fff;border-radius:2px;transition:all .3s}
+.menu-toggle span:last-child{width:14px}
+
+/* 下拉菜单 - MEDVi风格 */
+.nav-dropdown{display:none;position:absolute;top:100%;left:0;right:0;background:#0A2818;border-bottom:2px solid rgba(74,222,128,.15);padding:8px 0;z-index:999}
+.nav-dropdown.open{display:block;animation:dropDown .25s ease}
+@keyframes dropDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+.nav-dropdown a{display:block;padding:12px 40px;font-size:.9rem;font-weight:500;color:rgba(255,255,255,.85);transition:all .2s;letter-spacing:.01em}
+.nav-dropdown a:hover{color:#fff;background:rgba(74,222,128,.08)}
+.nav-dropdown .nav-cta{display:none}
+
+.nav.scrolled{background:#0A2818;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+
+.nav-logo{display:flex;align-items:center;gap:12px;transition:transform .3s var(--ease)}
+.nav-logo:hover{transform:scale(1.02)}
+.nav-logo img{height:42px;border-radius:10px}
+.nav-logo-text{font-weight:600;font-size:1.1rem;color:var(--text);letter-spacing:-.02em}
+.nav-links{display:flex;gap:36px;list-style:none}
+.nav-links a{font-size:.9rem;color:rgba(255,255,255,.9);font-weight:500;transition:color .3s;position:relative;padding:4px 0}
+.nav-links a::after{content:"";position:absolute;bottom:0;left:0;width:0;height:1.5px;background:#4ADE80;border-radius:1px;transition:width .35s var(--ease)}
+.nav-links a:hover{color:#4ADE80}
+.nav-links a:hover::after{width:100%}
+.nav-cta{font-size:.88rem;font-weight:600;color:#fff;background:var(--navy);padding:10px 28px;border-radius:100px;transition:all .3s var(--ease);cursor:pointer;border:none;letter-spacing:.02em}
+.nav-cta:hover{background:var(--navy-deep);transform:translateY(-2px);box-shadow:0 8px 24px rgba(27,67,50,.25)}
+.menu-toggle{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:10px}
+.menu-toggle span{width:24px;height:2px;background:var(--text);border-radius:2px;transition:all .3s}
+.hero{min-height:100vh;display:flex;align-items:center;padding:120px 0 80px;position:relative;overflow:hidden;background:#0A2818}}
+.hero::before{content:"";position:absolute;top:-200px;right:-150px;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(27,67,50,.05) 0%,transparent 60%);animation:gentleFloat 15s ease-in-out infinite}
+.hero::after{content:"";position:absolute;bottom:-150px;left:-100px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(224,123,57,.06) 0%,transparent 60%);animation:gentleFloat 12s ease-in-out infinite reverse}
+.hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:center}@media(min-width:769px){.hero-inner{grid-template-columns:1.1fr .9fr!important}}
+.hero-text{max-width:580px}
+.hero-tag{display:inline-flex;align-items:center;gap:10px;font-size:.8rem;font-weight:600;color:var(--navy);background:var(--navy-soft);padding:8px 18px;border-radius:100px;margin-bottom:32px;animation:fadeUp .8s var(--ease) both;border:1px solid rgba(27,67,50,.1)}
+.hero-tag svg{width:14px;height:14px}
+.hero-title{font-family:var(--font-cn);font-size:clamp(2.6rem,5.5vw,3.8rem);font-weight:700;color:#fff;line-height:1.2;margin-bottom:24px;animation:fadeUp .8s var(--ease) .1s both;letter-spacing:-.02em}
+.hero-title .highlight{color:#4ADE80;position:relative;display:inline-block}
+.hero-desc{font-size:1.15rem;color:rgba(255,255,255,.8);line-height:2;margin-bottom:40px;font-weight:400;animation:fadeUp .8s var(--ease) .2s both}
+.hero-actions{display:flex;gap:16px;align-items:center;animation:fadeUp .8s var(--ease) .3s both}
+.btn-primary{display:inline-flex;align-items:center;gap:10px;padding:16px 36px;background:var(--navy);color:#fff;font-size:.95rem;font-weight:600;border-radius:100px;transition:all .35s var(--ease);cursor:pointer;border:none;box-shadow:0 4px 20px rgba(27,67,50,.2);letter-spacing:.01em;position:relative;overflow:hidden}
+.btn-primary::after{content:"";position:absolute;inset:0;background:rgba(255,255,255,.08);opacity:0;transition:opacity .3s}
+.btn-primary:hover{background:var(--navy-deep);transform:translateY(-3px);box-shadow:0 12px 32px rgba(27,67,50,.3)}
+.btn-primary:hover::after{opacity:1}
+.btn-primary svg{transition:transform .3s;position:relative;z-index:1}
+.btn-primary:hover svg{transform:translateX(4px)}
+.btn-outline{display:inline-flex;align-items:center;gap:10px;padding:16px 32px;background:transparent;color:#4ADE80;font-size:.95rem;font-weight:500;border:1.5px solid #4ADE80;border-radius:100px;transition:all .3s var(--ease);cursor:pointer;position:relative;overflow:hidden}
+.btn-outline::after{content:"";position:absolute;inset:0;background:#4ADE80;opacity:0;transition:opacity .3s}
+.btn-outline:hover{background:#4ADE80;color:#0A2818;border-color:#4ADE80;transform:translateY(-3px);box-shadow:0 8px 28px rgba(74,222,128,.25)}
+.btn-outline:hover::after{opacity:0}
+.btn-outline:hover svg{transform:translateX(4px)}
+.btn-outline svg{transition:transform .3s var(--ease);position:relative;z-index:1}
+.hero-visual{display:flex;flex-direction:column;gap:20px;animation:fadeUp .8s var(--ease) .4s both}
+.hero-stat-row{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.hero-stat-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:32px 28px;transition:all .4s var(--ease);position:relative;overflow:hidden}
+.hero-stat-card::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--navy),var(--amber));opacity:0;transition:opacity .3s}
+.hero-stat-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:var(--border-2)}
+.hero-stat-card:hover::before{opacity:1}
+.hero-stat-card.wide{grid-column:span 2}
+.hero-stat-num{font-family:var(--font-display);font-size:2.8rem;font-weight:600;color:var(--navy);line-height:1;margin-bottom:8px}
+.hero-stat-num small{font-size:.45em;color:var(--text-3);font-family:var(--font-body);margin-left:4px;font-weight:500}
+.hero-stat-label{font-size:.85rem;color:var(--text-3);font-weight:500;line-height:1.2;white-space:nowrap;overflow:hidden}
+.stat-icon{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:1.1rem}
+.stat-icon.blue{background:var(--navy-soft);color:var(--navy)}
+.stat-icon.amber{background:var(--amber-soft);color:var(--amber)}
+section{padding:120px 0;position:relative}
+.section-head{text-align:center;margin-bottom:72px}
+.section-tag{display:inline-flex;align-items:center;gap:8px;font-size:.85rem;font-weight:600;color:var(--navy);letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px}
+.section-tag::before,.section-tag::after{content:"";width:20px;height:1px;background:var(--navy);opacity:.4}
+.section-title{font-family:var(--font-cn);font-size:clamp(2rem,3.5vw,2.6rem);font-weight:700;line-height:1.3;margin-bottom:16px;letter-spacing:-.02em}
+.section-desc{font-size:1.05rem;color:var(--text-2);max-width:560px;margin:0 auto;line-height:1.9}
+.about{background:#fff;position:relative}
+.about::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}@media(min-width:769px){.about-grid{grid-template-columns:1fr 1fr!important}}
+.about-features{display:flex;flex-direction:column;gap:28px}
+.about-feat{display:flex;gap:20px;padding:28px;border-radius:var(--radius);background:var(--bg-card);border:1px solid var(--border);transition:all .4s var(--ease)}
+.about-feat:hover{border-color:var(--navy);box-shadow:var(--shadow);transform:translateX(6px)}
+.about-feat-icon{width:48px;height:48px;min-width:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.25rem}
+.about-feat-icon.b{background:var(--navy-soft);color:var(--navy)}
+.about-feat-icon.a{background:var(--amber-soft);color:var(--amber)}
+.about-feat h4{font-size:1rem;font-weight:600;margin-bottom:6px;color:var(--text)}
+.about-feat p{font-size:.9rem;color:var(--text-2);line-height:1.8}
+.about-visual{position:relative}
+.about-quote-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:48px 40px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden}
+.about-quote-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--navy),var(--amber))}
+.about-quote{font-family:var(--font-cn);font-size:1.35rem;line-height:2;font-weight:600;margin-bottom:28px;color:var(--text)}
+.about-quote-author{font-size:.88rem;color:var(--text-3)}
+.about-quote-author strong{color:var(--text-2);font-weight:600}
+
+
+
+.dest-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.dest-card.main{grid-column:span 2;min-height:280px}.dest-card:not(.main){min-height:140px}@media(min-width:769px){.dest-grid{grid-template-columns:repeat(4,1fr)!important}.dest-card.main{grid-column:span 2!important}}@media(max-width:768px){.dest-grid{grid-template-columns:repeat(2,1fr)!important}.dest-card.main{grid-column:span 2!important}}
+.dest-card{position:relative;border:1px solid var(--border);border-radius:var(--radius);padding:36px 28px;background:var(--bg-card);transition:all .4s var(--ease);cursor:default;overflow:hidden}
+.dest-card::after{content:"";position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--navy),var(--amber));transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
+.dest-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:transparent}
+.dest-card:hover::after{transform:scaleX(1)}
+
+.dest-flag{position:absolute;top:16px;right:16px;width:48px;height:36px;border-radius:4px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.15)}
+.dest-flag img{width:100%;height:100%;object-fit:cover}
+.dest-abbr{font-family:var(--font-display);font-size:2rem;color:var(--navy);margin-right:12px;font-weight:700;letter-spacing:.5px;vertical-align:middle}
+.dest-name{font-family:var(--font-cn);font-size:.85rem;font-weight:700;margin-bottom:6px}
+
+.dest-sub{font-size:.85rem;color:var(--text-3);margin-bottom:24px}
+.dest-count{font-family:var(--font-display);font-size:2rem;color:var(--navy);line-height:1;font-weight:600}
+.dest-count small{font-size:.5em;color:var(--text-3);font-family:var(--font-body);font-weight:500}
+.dest-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.dest-tag{font-size:.75rem;padding:4px 12px;border-radius:100px;background:var(--bg-warm);color:var(--text-2);font-weight:500}
+.services{background:#fff;position:relative}
+.services::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent)}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr)!important;gap:24px}@media(max-width:768px){.services-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.services-grid{grid-template-columns:1fr}}
+.svc-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:40px 32px;transition:all .4s var(--ease);position:relative;overflow:hidden}
+.svc-card::before{content:"";position:absolute;top:0;left:0;right:0;height:0;background:linear-gradient(180deg,var(--navy-soft),transparent);transition:height .4s var(--ease)}
+.svc-card:hover{transform:translateY(-4px);box-shadow:0 25px 60px rgba(0,0,0,.12);border-color:transparent}
+.svc-card:hover::before{height:100px}
+.svc-num{font-family:var(--font-display);font-size:.85rem;color:var(--navy);opacity:.4;margin-bottom:24px;letter-spacing:.1em;position:relative}
+.svc-icon{width:52px;height:52px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:24px;position:relative}
+.svc-icon.blue{background:var(--navy-soft);color:var(--navy)}
+.svc-icon.amber{background:var(--amber-soft);color:var(--amber)}
+.svc-card h3{font-family:var(--font-cn);font-size:1.15rem;font-weight:700;margin-bottom:12px;position:relative}
+.svc-card p{font-size:.92rem;color:var(--text-2);line-height:1.85;position:relative}
+.svc-list{list-style:none;margin-top:20px;display:flex;flex-direction:column;gap:8px;position:relative}
+.svc-list li{font-size:.85rem;color:var(--text-3);padding-left:20px;position:relative}
+.svc-list li::before{content:"";position:absolute;left:0;top:10px;width:6px;height:6px;border-radius:50%;background:var(--navy);opacity:.3}
+.process-timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;position:relative}@media(min-width:769px){.process-timeline{grid-template-columns:repeat(4,1fr)!important}}
+.process-timeline::before{content:"";position:absolute;top:40px;left:12.5%;right:12.5%;height:2px;background:linear-gradient(90deg,var(--border),var(--navy-soft),var(--border));z-index:0}
+.process-step{text-align:center;position:relative;z-index:1}
+.process-dot{width:80px;height:80px;margin:0 auto 28px;border-radius:50%;background:var(--bg-card);border:2px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:1.6rem;color:var(--navy);transition:all .4s var(--ease);box-shadow:0 1px 2px rgba(0,0,0,.04);position:relative;overflow:hidden}.process-dot span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);line-height:1;pointer-events:none}
+.process-step:hover .process-dot{border-color:var(--navy);background:var(--navy-soft);box-shadow:0 0 0 10px rgba(27,67,50,.08);transform:scale(1.05)}
+.process-phase{font-size:.75rem;font-weight:600;color:var(--navy);letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+.process-step h4{font-family:var(--font-cn);font-size:1.1rem;font-weight:700;margin-bottom:10px}
+.process-step p{font-size:.88rem;color:var(--text-2);line-height:1.8;max-width:220px;margin:0 auto}
+.process-time{display:inline-block;margin-top:16px;font-size:.85rem;color:var(--text-3);padding:6px 16px;border-radius:100px;background:var(--bg-warm);font-weight:500}
+.results{background:linear-gradient(135deg,var(--navy-deep) 0%,var(--navy) 50%,#2D5A87 100%);background-size:200% 200%;animation:gradientShift 10s ease infinite;color:#fff;padding:100px 0;position:relative}
+.results::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none}
+.results-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:rgba(255,255,255,.03);border-radius:var(--radius-lg);border:1px solid rgba(255,255,255,.06);overflow:hidden;position:relative}
+.result-item{text-align:center;padding:56px 28px;border-right:1px solid rgba(255,255,255,.05);transition:background .35s}
+.result-item:last-child{border-right:none}
+.result-item:hover{background:rgba(255,255,255,.04)}
+.result-num{font-family:var(--font-display);font-size:3.2rem;font-weight:600;line-height:1;margin-bottom:10px;background:linear-gradient(135deg,#fff,rgba(255,255,255,.6));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.result-num small{font-size:.4em;-webkit-text-fill-color:rgba(255,255,255,.4)}
+.result-label{font-size:.9rem;color:rgba(255,255,255,.5);font-weight:500}
+.admissions{background:var(--bg-warm-alt);padding:100px 0 0;position:relative}
+.destinations{background:var(--bg-section-alt);padding:100px 0;position:relative}
+.admissions::before{display:none}
+.admissions .section-tag{color:var(--navy)}
+.admissions .section-tag::before,.admissions .section-tag::after{background:var(--navy)}
+.admissions .section-title{color:var(--text)}
+.admissions .section-desc{color:var(--text-2)}
+.adm-header{text-align:center;margin-bottom:56px}
+
+
+.adm-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}@media(min-width:769px){}
+.adm-card{background:#deede0;border:1px solid #c5d9c7;border-radius:20px;transition:all .4s var(--ease);cursor:pointer;overflow:hidden;position:relative;display:flex;flex-direction:column;height:100%}
+.adm-card:hover{background:#fff!important;border-color:var(--navy)!important;transform:translateY(-6px);box-shadow:0 12px 40px rgba(0,0,0,.12)}
+.adm-card:nth-of-type(1){background:#deede0;border-color:#c5d9c7}
+.adm-card:nth-of-type(2){background:#E0EDF8;border-color:#c0d6eb}
+.adm-card-accent{height:5px;background:linear-gradient(90deg,var(--navy),var(--amber));opacity:0;transition:opacity .3s}
+.adm-card:hover .adm-card-accent{opacity:1}
+.adm-card-body{padding:28px 24px;flex:1;display:flex;flex-direction:column}
+.adm-card-avatar{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem;font-weight:700;color:#fff;margin-bottom:20px}
+.avatar-columbia{background:linear-gradient(135deg,#373087,#2B66A0)}
+.avatar-cornell{background:linear-gradient(135deg,#B31B1B,#7A0019)}
+.avatar-mit{background:linear-gradient(135deg,#3D5A80,#2D6A4F)}
+.avatar-stanford{background:linear-gradient(135deg,#8C1515,#4C0000)}
+.avatar-harvard{background:linear-gradient(135deg,#1B4332,#2D6A4F)}
+.avatar-princeton{background:linear-gradient(135deg,#FF6B00,#E65100)}
+.avatar-yale{background:linear-gradient(135deg,#00356B,#003366)}
+.avatar-default{background:linear-gradient(135deg,var(--navy),var(--navy-deep))}
+.adm-card-offer{font-family:var(--font-cn);font-size:1.05rem;font-weight:700;color:var(--text);line-height:1.4;margin-bottom:6px}
+.adm-card-program{font-size:.85rem;color:var(--text-3);margin-bottom:16px}
+.adm-card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.adm-tag{font-size:.75rem;padding:3px 10px;border-radius:100px;font-weight:500}
+.adm-tag-bg{background:var(--navy-soft);color:var(--navy)}
+.adm-tag-amber{background:var(--amber-soft);color:#8B5A1E}
+.adm-card-school{font-size:.8rem;color:var(--text-3);margin-bottom:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.adm-card-meta{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.adm-card-meta span{font-size:.75rem;color:var(--text-3);padding:3px 10px;border-radius:100px;background:var(--bg-warm);border:1px solid var(--border)}
+.adm-card-arrow{position:relative;bottom:auto;right:auto;margin-top:auto;align-self:flex-end;width:32px;height:32px;border-radius:50%;background:var(--bg-warm);display:flex;align-items:center;justify-content:center;font-size:.8rem;opacity:0;transition:all .3s;transform:translateX(-6px);color:var(--navy)}
+.adm-card:hover .adm-card-arrow{opacity:1;transform:translateX(0)}
+
+
+
+
+
+
+
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.65);backdrop-filter:blur(8px);z-index:3000;display:none;align-items:center;justify-content:center;padding:24px;animation:fadeIn .3s ease}
+.modal-overlay.active{display:flex}
+.modal{background:var(--bg-card);border-radius:24px;max-width:min(860px,92vw);width:100%;max-height:90vh;overflow-y:auto;position:relative;animation:scaleIn .4s var(--ease);box-shadow:0 40px 100px rgba(0,0,0,.25)}
+.modal::-webkit-scrollbar{width:6px}
+
+.modal::-webkit-scrollbar-track{background:transparent}
+
+.modal-close{position:absolute;top:20px;right:20px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:10;font-size:1.1rem;color:rgba(255,255,255,.8);transition:all .25s}
+.modal-close:hover{background:rgba(255,255,255,.25);color:#fff;border-color:rgba(255,255,255,.35);transform:rotate(90deg)}
+.modal-header{background:linear-gradient(135deg,var(--navy-deep),var(--navy));padding:52px 48px 44px;color:#fff;position:relative;overflow:hidden}
+.modal-header::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.03) 1px,transparent 1px);background-size:24px 24px;pointer-events:none}
+.modal-header-content{position:relative;z-index:1}
+.modal-offer-label{font-size:.75rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:10px}
+.modal-offer-title{font-family:var(--font-cn);font-size:clamp(1.5rem,3vw,2rem);font-weight:700;line-height:1.3;margin-bottom:8px}
+.modal-offer-school{font-size:1rem;color:rgba(255,255,255,.65);margin-bottom:20px}
+.modal-offer-tags{display:flex;flex-wrap:wrap;gap:8px}
+.modal-tag{font-size:.85rem;padding:5px 14px;border-radius:100px;font-weight:500;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.75);background:rgba(255,255,255,.06)}
+.modal-body{padding:40px 48px}
+.modal-section{margin-bottom:36px}
+.modal-section:last-child{margin-bottom:0}
+.modal-section-title{font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--text);margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px}
+.modal-reflection+.modal-section-title,.modal-section:has(.modal-reflection)+.modal-section>.modal-section-title{border-left:3px solid var(--amber);padding-left:14px}
+.modal-section:has(.modal-advice)>.modal-section-title{border-left:3px solid var(--navy-deep);padding-left:14px}
+.modal-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}@media(min-width:769px){.modal-stats{grid-template-columns:repeat(3,1fr)!important}}@media(max-width:520px){.modal-stats{grid-template-columns:1fr!important}}
+.modal-stat{background:var(--bg-warm);border-radius:16px;padding:20px;text-align:center;border:1px solid var(--border)}.modal-stat-1{background:#deede0!important}
+.modal-stat-2{background:#E0EDF8!important}
+.modal-stat-3{background:#F5EDE0!important}
+.modal-stat-num{font-family:var(--font-display);font-size:1.8rem;font-weight:600;color:var(--navy);line-height:1}
+.modal-stat-label{font-size:.85rem;color:var(--text-3);margin-top:6px;font-weight:500}
+.modal-exp-card{background:var(--bg-warm);border:1px solid var(--border);border-radius:16px;padding:24px;margin-bottom:16px;transition:all .3s}
+.modal-exp-card:hover{border-color:var(--navy);box-shadow:var(--shadow)}
+.modal-exp-card:last-child{margin-bottom:0}
+.modal-exp-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
+.modal-exp-title{font-size:.95rem;font-weight:600;color:var(--text);line-height:1.4;flex:1}
+.modal-exp-period{font-size:.85rem;color:var(--text-3);white-space:nowrap;font-weight:500}
+.modal-exp-company{font-size:.85rem;color:var(--navy);font-weight:600;margin-bottom:8px}
+.modal-exp-desc li{display:block;font-size:.88rem;color:var(--text-2);line-height:1.8;padding-left:16px;position:relative;margin-bottom:4px}
+.modal-exp-desc li::before{content:"";position:absolute;left:0;top:11px;width:5px;height:5px;border-radius:50%;background:var(--navy);opacity:.3}
+.modal-tl{display:flex;flex-direction:column}
+.modal-tl-item{display:flex;gap:20px;position:relative;padding-bottom:28px}
+.modal-tl-item::before{content:"";position:absolute;left:11px;top:28px;bottom:0;width:1px;background:var(--border)}
+.modal-tl-item:last-child{padding-bottom:0}
+.modal-tl-item:last-child::before{display:none}
+.modal-tl-dot{width:24px;height:24px;min-width:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.75rem;color:#fff;font-weight:700;margin-top:2px}
+.dot-navy{background:var(--navy)}.dot-amber{background:var(--amber)}.dot-green{background:#2E7D32}.dot-blue{background:#1565C0}
+.modal-tl-year{font-size:.75rem;color:var(--text-3);font-weight:600;margin-bottom:4px;letter-spacing:.04em}
+.modal-tl-title{font-size:.9rem;font-weight:600;color:var(--text);margin-bottom:4px}
+.modal-tl-desc{font-size:.85rem;color:var(--text-3);line-height:1.7}
+.modal-reflection{background:linear-gradient(135deg,var(--navy-soft),var(--amber-soft));border-radius:16px;padding:28px;border:1px solid rgba(27,67,50,.08)}
+
+.modal-reflection p{font-family:var(--font-cn);font-size:1rem;line-height:2;color:var(--text);font-weight:600}
+.modal-reflection-author{font-size:.85rem;color:var(--text-3);margin-top:16px;font-weight:500}
+.modal-advice{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.modal-advice-item{background:var(--bg-warm);border:1px solid var(--border);border-radius:14px;padding:20px}
+.modal-advice-icon{font-size:1.2rem;margin-bottom:10px}
+.modal-advice-title{font-size:.88rem;font-weight:700;color:var(--text);margin-bottom:6px}
+.modal-advice-text{font-size:.85rem;color:var(--text-2);line-height:1.7}
+
+
+
+
+.modal-nav{display:flex;gap:10px;position:absolute;top:16px;right:72px;z-index:10}
+.modal-nav-btn{width:40px;height:40px;border-radius:50%;background:var(--bg-card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:1rem;color:var(--text-2);transition:all .25s}
+.modal-nav-btn:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.modal-nav-btn:disabled{opacity:.3;cursor:default}
+.cta-section{padding:120px 0;text-align:center;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--navy-deep) 0%,var(--navy) 50%,#2D5A87 100%);background-size:200% 200%;animation:gradientShift 10s ease infinite;color:#fff}
+.cta-section::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.03) 1px,transparent 1px);background-size:30px 30px;pointer-events:none}
+.cta-section .section-tag{color:rgba(255,255,255,.6)}
+.cta-section .section-tag::before,.cta-section .section-tag::after{background:rgba(255,255,255,.3)}
+.cta-section .section-title{color:#fff}
+.cta-section .section-desc{color:rgba(255,255,255,.75)}
+.cta-actions{display:flex;gap:16px;justify-content:center;align-items:center;margin-top:16px}
+.btn-white{display:inline-flex;align-items:center;gap:8px;padding:16px 40px;background:#fff;color:var(--navy-deep);font-size:.95rem;font-weight:600;border-radius:100px;transition:all .3s var(--ease);cursor:pointer;border:none;box-shadow:0 4px 24px rgba(0,0,0,.15);position:relative;overflow:hidden}
+.btn-white:hover{transform:translateY(-3px);box-shadow:0 10px 36px rgba(0,0,0,.2)}
+.btn-white-outline{display:inline-flex;align-items:center;gap:8px;padding:16px 32px;background:transparent;color:rgba(255,255,255,.85);font-size:.95rem;font-weight:500;border:1.5px solid rgba(255,255,255,.3);border-radius:100px;transition:all .25s;cursor:pointer}
+.btn-white-outline:hover{border-color:rgba(255,255,255,.6);background:rgba(255,255,255,.08)}
+.cta-qr{display:flex;gap:40px;justify-content:center;margin-top:56px}
+.cta-qr-item{text-align:center}
+.cta-qr-box{width:150px;height:150px;border-radius:16px;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;border:2px solid rgba(255,255,255,.2);overflow:hidden;transition:all .3s}
+.cta-qr-box:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.2);border-color:rgba(255,255,255,.4)}
+.cta-qr-box img{width:100%;height:100%;object-fit:cover}
+.cta-qr-label{font-size:.9rem;color:rgba(255,255,255,.8);font-weight:500}
+.footer{background:var(--bg-dark);color:rgba(255,255,255,.5);padding:64px 0 36px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}@media(min-width:769px){.footer-grid{grid-template-columns:2fr 1fr 1fr 1fr!important}}
+.footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.footer-brand img{height:32px;border-radius:8px}
+.footer-brand span{font-weight:600;font-size:1rem;color:rgba(255,255,255,.8)}
+.footer-desc{font-size:.88rem;line-height:1.8;max-width:280px}
+.footer-col h5{font-size:.85rem;font-weight:600;color:rgba(255,255,255,.35);letter-spacing:.1em;text-transform:uppercase;margin-bottom:20px}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+.footer-col a{font-size:.9rem;color:rgba(255,255,255,.5);transition:color .25s}
+.footer-col a:hover{color:rgba(255,255,255,.85)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:28px;border-top:1px solid rgba(255,255,255,.06);font-size:.85rem}
+.footer-socials{display:flex;gap:14px}
+.footer-socials a{width:36px;height:36px;border-radius:50%;border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:.85rem;transition:all .25s}
+.footer-socials a:hover{border-color:var(--navy);color:var(--navy);background:rgba(43,108,176,.1)}
+.mobile-nav{display:none;position:fixed;inset:0;z-index:9999;background:rgba(253,252,250,.97);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);flex-direction:column;align-items:center;justify-content:center;gap:28px}
+.mobile-nav.open{display:flex}
+.mobile-nav a{font-size:1.4rem;font-family:var(--font-cn);color:var(--text);transition:color .25s}
+.mobile-nav a:hover{color:var(--navy)}
+.mobile-nav-header{font-size:.75rem;font-weight:600;color:var(--text-3);letter-spacing:.12em;text-transform:uppercase;margin-bottom:20px;opacity:.5}
+.mobile-cta-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 44px;background:var(--navy);color:#fff;font-size:1rem;font-weight:600;border-radius:100px;transition:all .3s var(--ease);margin-top:20px;letter-spacing:.01em;min-width:220px}
+.mobile-cta-btn:hover{background:var(--navy-deep);transform:translateY(-2px);box-shadow:0 8px 24px rgba(27,67,50,.25)}
+.mobile-nav-close{position:absolute;top:24px;right:24px;background:none;border:none;font-size:1.6rem;cursor:pointer;color:var(--text);padding:10px}
+#toast{position:fixed;bottom:40px;left:50%;transform:translateX(-50%) translateY(100px);background:var(--bg-dark);color:#fff;padding:18px 36px;border-radius:100px;font-size:.95rem;font-weight:500;box-shadow:0 10px 40px rgba(0,0,0,.2);transition:transform .4s var(--ease),opacity .4s;opacity:0;z-index:2000;pointer-events:none}
+@media(max-width:1024px){section{padding:80px 0}.container,.container-lg{padding:0 24px}.nav-links{display:none}.menu-toggle{display:flex!important}.nav-inner{padding:0 32px}.nav-dropdown a{padding:12px 40px}}.hero-inner{grid-template-columns:1fr;gap:48px}.about-grid{grid-template-columns:1fr;gap:56px}.about-visual{order:-1}.dest-grid{grid-template-columns:repeat(2,1fr)}.dest-card.main{grid-column:span 2}.services-grid{grid-template-columns:repeat(3,1fr)!important}.process-timeline{grid-template-columns:1fr 1fr;gap:40px}.process-timeline::before{display:none}.modal-header,.modal-body,.modal-stats{grid-template-columns:1fr!important}.modal-advice{grid-template-columns:1fr}}
+@media(max-width:768px){section{padding:80px 0}.container,.container-lg{padding:0 24px}.nav-links{display:none}.nav-links .nav-cta{display:none}.menu-toggle{display:flex!important}.nav-inner{padding:0 24px}.nav-dropdown a{padding:14px 24px}.nav-dropdown .nav-cta{margin:12px 24px 4px}}.hero{padding-top:100px;padding-bottom:48px;min-height:auto}.hero-visual,.hero-stat-row{flex-direction:column;align-items:stretch}.hero-actions{flex-direction:row;flex-wrap:wrap}.hero-stat-row{grid-template-columns:1fr 1fr}.hero-stat-card.wide{grid-column:span 2}.dest-grid{grid-template-columns:1fr}.dest-card.main{grid-column:span 1}.services-grid{grid-template-columns:repeat(2,1fr)}.results-grid{grid-template-columns:1fr 1fr}.result-item:nth-child(2n){border-right:none}.result-item:nth-child(3),.result-item:nth-child(4){border-top:1px solid rgba(255,255,255,.05)}.cta-actions,.cta-qr{flex-direction:column;gap:16px}.footer-grid{grid-template-columns:1fr;gap:32px}.footer-bottom{flex-direction:column;gap:16px;text-align:center}.modal{border-radius:16px}.modal-header,.modal-body,.modal-stats{grid-template-columns:1fr!important}.modal-reflection{padding:24px!important}}
+
+/* ===== 520px 超小屏适配 ===== */
+@media(max-width:520px){.results-grid{grid-template-columns:1fr!important}.result-item{border-right:none!important}.result-item:nth-child(2){border-top:1px solid rgba(255,255,255,.05)}.dest-grid{grid-template-columns:1fr!important}.dest-card.main{grid-column:span 1!important}.modal-reflection{padding:20px!important}.modal-reflection h4{font-size:.92rem!important}.modal-reflection p{font-size:.92rem!important}.process-timeline{grid-template-columns:1fr!important}.hero-stat-row{grid-template-columns:1fr!important}.hero-stat-card.wide{grid-column:span 1}}
+
+/* ===== Nav Logo 样式 ===== */
+.nav-logo{display:flex;align-items:center;gap:10px;transition:opacity .25s;text-decoration:none;flex-shrink:0;color:#fff}
+.nav-logo-texts{display:flex;align-items:flex-end;gap:8px;line-height:1}
+.nav-logo span,.nav-logo-en,.nav-logo-cn{color:#fff!important}
+.nav-logo img{height:44px;border-radius:10px;object-fit:cover;flex-shrink:0}
+.nav-logo-en{font-family:"Cormorant Garamond","Playfair Display",Georgia,serif;font-size:1.5rem;font-weight:700;color:#fff;font-style:normal;letter-spacing:0.5px;line-height:1}
+.nav-logo-cn{font-size:.85rem;color:#ffffff!important;letter-spacing:1px;line-height:1;margin-top:auto;padding-bottom:7px}
+
+
+/* ============================================
+   SEEKINGBAR 全面 4 色方案
+   ============================================ */
+
+
+/* Hero 统计卡 4 色 */
+.hero-stat-card{background:var(--bg-card);transition:all .3s}
+.hero-stat-card:nth-child(1){background:#deede0;border-color:#c5d9c7}
+.hero-stat-card:nth-child(2){background:#e4ecf2;border-color:#c8d4df}
+.hero-stat-card:nth-child(3){background:#f2ebe1;border-color:#e0d8cc}
+.hero-stat-card:nth-child(4){background:#f2e6ec;border-color:#ddd0d9}
+.hero-stat-card:nth-child(5){background:#deede0;border-color:#c5d9c7}
+.hero-stat-card:nth-child(1):hover{background:#c8d6c4}
+.hero-stat-card:nth-child(2):hover{background:#d0dcea}
+.hero-stat-card:nth-child(3):hover{background:#e8ddd0}
+.hero-stat-card:nth-child(4):hover{background:#e8dce2}
+.hero-stat-card:nth-child(5):hover{background:#c8d6c4}
+.hero-stat-num{font-size:3rem;font-weight:900;color:#1a1a1a}
+.hero-stat-label{color:rgba(30,30,30,.8);font-size:.85rem;line-height:1.2;white-space:nowrap;overflow:hidden}
+
+/* About 特色卡 4 色 */
+.about-feat{display:flex;gap:20px;padding:28px;border-radius:var(--radius);transition:all .4s}
+.about-feat:nth-child(1){background:#deede0;border:1.5px solid #c5d9c7}
+.about-feat:nth-child(2){background:#e4ecf2;border:1.5px solid #c8d4df}
+.about-feat:nth-child(3){background:#f2ebe1;border:1.5px solid #e0d8cc}
+.about-feat:nth-child(4){background:#f2e6ec;border:1.5px solid #ddd0d9}
+.about-feat:nth-child(1):hover{background:#c8d6c4;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.about-feat:nth-child(2):hover{background:#d0dcea;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.about-feat:nth-child(3):hover{background:#e8ddd0;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.about-feat:nth-child(4):hover{background:#e8dce2;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.about-feat h4{color:#1a1a1a;font-size:1rem;font-weight:600;margin-bottom:6px}
+.about-feat p{color:rgba(30,30,30,.8);font-size:.88rem;line-height:1.7;margin:0}
+.about-feat-icon.a,.about-feat-icon.b{background:rgba(27,67,50,.1);color:#1B4332}
+
+/* About 标题 深色 */
+.about .section-tag,.about .section-title,.about .section-desc{color:#1a1a1a!important}
+.about .section-tag::before,.about .section-tag::after{background:#1B4332!important}
+
+/* About quote card */
+.about-quote-card{background:#f2ebe1;border:1.5px solid #e0d8cc}
+.about-quote{color:#1a1a1a!important}
+.about-quote-author{color:rgba(30,30,30,.8)!important}
+
+/* Services 卡片 6 色 */
+.svc-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:40px 32px;transition:all .4s}
+.svc-card:nth-of-type(1){background:#deede0;border-color:#c5d9c7}
+.svc-card:nth-of-type(2){background:#E0EDF8;border-color:#c0d6eb}
+.svc-card:nth-of-type(3){background:#F5EDE0;border-color:#e5ddd0}
+.svc-card:nth-of-type(4){background:#F5E5ED;border-color:#e0d0dc}
+.svc-card:nth-of-type(5){background:#E8F0E0;border-color:#c8d9c0}
+.svc-card:nth-of-type(6){background:#EDE8F0;border-color:#ddd5e3}
+.svc-card:nth-of-type(1):hover{background:#c8d6c4;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.svc-card:nth-of-type(2):hover{background:#d0dcea;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.svc-card:nth-of-type(3):hover{background:#e8ddd0;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.svc-card:nth-of-type(4):hover{background:#e8dce2;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.svc-card:nth-of-type(5):hover{background:#d5e0cc;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.svc-card:nth-of-type(6):hover{background:#e0d8e8;transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+
+/* Services 标题 深色 */
+.services .section-tag,.services .section-title,.services .section-desc{color:#1a1a1a!important}
+.services .section-tag::before,.services .section-tag::after{background:#1B4332!important}
+
+/* Process 步骤 4 色 */
+.process-step{text-align:center;position:relative;z-index:1;transition:all .3s}
+.process-step:nth-of-type(1){background:#deede0;border-radius:16px;padding:32px 20px;border:1.5px solid #c5d9c7}
+.process-step:nth-of-type(2){background:#e4ecf2;border-radius:16px;padding:32px 20px;border:1.5px solid #c8d4df}
+.process-step:nth-of-type(3){background:#f2ebe1;border-radius:16px;padding:32px 20px;border:1.5px solid #e0d8cc}
+.process-step:nth-of-type(4){background:#f2e6ec;border-radius:16px;padding:32px 20px;border:1.5px solid #ddd0d9}
+.process-step:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.process-dot{font-size:1.8rem;margin-bottom:12px;display:block}
+.process-step h4{color:#1a1a1a;font-size:1.05rem;font-weight:700;margin-bottom:8px}
+.process-step p{color:rgba(30,30,30,.8);font-size:.88rem;line-height:1.7;margin:0}
+
+/* Process 标题 深色 */
+.process .section-tag,.process .section-title,.process .section-desc{color:#1a1a1a!important}
+.process .section-tag::before,.process .section-tag::after{background:#1B4332!important}
+
+/* Results 录取成果 */
+.results{background:linear-gradient(135deg,var(--navy-deep) 0%,var(--navy) 50%,#2D5A87 100%);background-size:200% 200%;animation:gradientShift 10s ease infinite;color:#fff;padding:100px 0;position:relative}
+.results::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none}
+.result-item{text-align:center;padding:56px 28px;border-right:1px solid rgba(255,255,255,.05);transition:background .35s}
+.result-item:nth-child(1){background:rgba(255,255,255,.03);border-radius:20px 0 0 20px}
+.result-item:nth-child(2){background:rgba(255,255,255,.03)}
+.result-item:nth-child(3){background:rgba(255,255,255,.03)}
+.result-item:nth-child(4){background:rgba(255,255,255,.03);border-radius:0 20px 20px 0}
+.result-item:hover{background:rgba(255,255,255,.04)}
+.result-num{color:#fff;font-size:3.2rem;font-weight:600;background:linear-gradient(135deg,#fff,rgba(255,255,255,.6));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.result-label{color:rgba(255,255,255,.5);font-size:.9rem;font-weight:500}
+.results .section-tag,.results .section-title,.results .section-desc{color:#fff!important}
+.results .section-tag::before,.results .section-tag::after{background:rgba(255,255,255,.3)!important}
+admissions: 保持 #0A2818
+btn-outline: 翠绿边框+文字
+btn-outline hover: 填充翠绿
+
+@media(max-width:1024px){.adm-grid{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:768px){.adm-grid{grid-template-columns:1fr!important}}.avatar-penn{background:linear-gradient(135deg,#011F5B,#990000)}
+
+</style>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="logo/logo.png" alt="SeekingBar">
+      <div class="nav-logo-texts">
+        <span class="nav-logo-en">SeekingBar</span>
+        <span class="nav-logo-cn">留学工作室</span>
+      </div>
+    </a>
+    <ul class="nav-links">
       <li><a href="about.html">关于我们</a></li>
-      <li><a href="services.html">服务内容</a></li>
+      <li><a href="about.html#destinations">申请方向</a></li>
+      <li><a href="services.html">服务体系</a></li>
+      <li><a href="about.html#process">申请流程</a></li>
+      <li><a href="about.html#results">录取成果</a></li>
       <li><a href="cases.html">录取案例</a></li>
-      <li><a href="blog.html">申请资讯</a></li>
       <li><a href="contact.html">联系我们</a></li>
     </ul>
+    <button class="menu-toggle" onclick="toggleNavMenu()" aria-label="菜单">
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <!-- 下拉菜单 (MEDVi风格) -->
+  <div class="nav-dropdown" id="navDropdown">
+    <a href="about.html" onclick="toggleNavMenu()">关于我们</a>
+    <a href="about.html#destinations" onclick="toggleNavMenu()">申请方向</a>
+    <a href="services.html" onclick="toggleNavMenu()">服务体系</a>
+    <a href="about.html#process" onclick="toggleNavMenu()">申请流程</a>
+    <a href="about.html#results" onclick="toggleNavMenu()">录取成果</a>
+    <a href="cases.html" onclick="toggleNavMenu()">录取案例</a>
+    <a href="contact.html" onclick="toggleNavMenu()">联系我们</a>
   </div>
 </nav>
+  
 
-<!-- Hero Section -->
+
 <section class="hero">
-  <div class="container">
-    <div class="hero-content">
-      <h1>美国研究生申请成功率怎么提高？</h1>
-      <p class="subtitle">90%+ 学员拿到 Top 30 Offer — 2024-2026 真实录取数据</p>
-      <p class="description">导师制一对一陪伴，文书不限次修改，选校到签证全覆盖。不做流水线，只做个性化。</p>
-      <div class="hero-cta">
-        <a href="contact.html#eval" class="btn btn-primary">免费评估我的录取概率</a>
-        <a href="cases.html" class="btn btn-secondary">看真实录取案例</a>
+  <div class="container-lg">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          2027 Fall 申请季进行中
+        </div>
+        <h1 class="hero-title">研究生申请<br>不是一个人的<span class="highlight">战斗</span></h1>
+        <p class="hero-desc">SeekingBar专注美国研究生【硕博】申请9年，同时擅长美国和香港、新加坡、英国、澳洲、加拿大的多国家/地区混合申请。<br>一对一申请服务，尤其精通：1. 定制化的规划和文书路线 2. 从职业的角度引导学生有逻辑地认知专业与职业</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn-primary">预约免费咨询</a>
+          <a href="#admissions" class="btn-outline">看看录取案例</a>
+        </div>
       </div>
+      <div class="hero-visual">
+        <div class="hero-stat-row">
+          <div class="hero-stat-card"><div class="hero-stat-num">93<small>%</small></div><div class="hero-stat-label">美国Top10或藤校录取率</div></div>
+          <div class="hero-stat-card"><div class="hero-stat-num">580+</div><div class="hero-stat-label">成功案例</div></div>
+        </div>
+        <div class="hero-stat-row">
+          <div class="hero-stat-card"><div class="hero-stat-num">9<small>年</small></div><div class="hero-stat-label">深耕研究生申请</div></div>
+          <div class="hero-stat-card"><div class="hero-stat-num">100<small>%</small></div><div class="hero-stat-label">美国Top 50 录取率</div></div>
+        </div>
+        <div class="hero-stat-card wide" style="background:#deede0;border-color:#c5d9c7"><div class="hero-stat-num" style="color:#1a4332">6</div><div class="hero-stat-label" style="color:#2d6a4f">覆盖国家和地区 · 美国 / 英国 / 香港 / 新加坡 / 澳洲 / 加拿大</div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-tag">关于我们</div>
+      <h2 class="section-title">不只是你的留学申请搭子，是温暖的陪伴者和助力者</h2>
+      <p class="section-desc">我们相信好的留学服务不是流水线加工，而是真正理解你、陪伴你、帮你找到最适合的路。</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-features">
+        <div class="about-feat reveal"><div class="about-feat-icon b">🤝</div><div><h4>一对一定制</h4><p>每位学员配备专属主导师，根据背景、目标、预算量身打造选校方案和申请策略。</p></div></div>
+        <div class="about-feat reveal reveal-d1"><div class="about-feat-icon a">📋</div><div><h4>全流程陪伴</h4><p>从前期规划、选校定校、文书打磨、到面试辅导、签证办理，每个环节都不缺席。</p></div></div>
+        <div class="about-feat reveal reveal-d2"><div class="about-feat-icon b">📊</div><div><h4>数据驱动选校</h4><p>基于历年录取数据和你的真实条件，科学定位冲刺校、匹配校、保底校。</p></div></div>
+        <div class="about-feat reveal reveal-d3"><div class="about-feat-icon a">✍️</div><div><h4>文书深度打磨</h4><p>拒绝模板，每篇文书都从你的真实经历出发，反复推敲到满意为止。</p></div></div>
+      </div>
+      <div class="about-visual reveal">
+        <div class="about-quote-card" onclick="openModal('olivia')" style="cursor:pointer;background:#deede0;border-color:#c5d9c7">
+          <div class="about-quote" style="color:#1a2e1a">"正在焦虑不知如何安排申请程序？希望这篇分享能给你带来启发。"</div>
+          <div class="about-quote-author"><strong>— A 同学</strong></div>
+          <div class="about-quote-offers">Columbia MSBA · Cornell MPS DS</div>
+          <style>.about-quote-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-xl)}</style>
+        </div>
+        </div></div>
+  </div>
+</section>
+
+
+<section id="destinations">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-tag">申请方向</div>
+      <h2 class="section-title">美国为主，全球同步</h2>
+      <p class="section-desc">深耕美国研究生申请，同时为你打开港、新、英、澳、加更多可能性。</p>
+    </div>
+    <div class="dest-grid">
+      <div class="dest-card main reveal"><div class="dest-flag"><img src="logo/us_4x3.svg" alt="美国"></div><span class="dest-abbr">US</span><div class="dest-name">美国</div><div class="dest-sub">核心申请方向</div><div class="dest-count">350<small>+ 录取</small></div><div class="dest-detail">
+<div class="dest-detail-row"><span class="dest-detail-label">交叉学科</span><span class="dest-detail-text">商业分析(BA)、数据科学(DS)、金工金数、运筹学等</span></div>
+<div class="dest-detail-row"><span class="dest-detail-label">商科</span><span class="dest-detail-text">金融、市场营销、管理等</span></div>
+<div class="dest-detail-row"><span class="dest-detail-label">理科</span><span class="dest-detail-text">统计、数学、生物硕博等</span></div>
+<div class="dest-detail-row"><span class="dest-detail-label">文科</span><span class="dest-detail-text">传媒、心理学、法律LLM等</span></div>
+</div>
+<style>.dest-detail{padding:12px 16px 0;font-size:.82em;line-height:1.7;text-align:left}.dest-detail-row{display:flex;align-items:baseline;gap:6px}.dest-detail-label{color:rgba(0,0,0,.45);white-space:nowrap;font-weight:500}.dest-detail-text{color:rgba(0,0,0,.6)}
+</style></div>
+      <div class="dest-card reveal reveal-d1"><div class="dest-flag"><img src="logo/hong-kong.svg" alt="香港"></div><span class="dest-abbr">HK</span><div class="dest-name">香港</div><div class="dest-sub">热门备选</div><div class="dest-count">80<small>+ 录取</small></div><div class="dest-tags"><span class="dest-tag">HKU</span><span class="dest-tag">HKUST</span><span class="dest-tag">CUHK</span><span class="dest-tag">CityU</span><span class="dest-tag">PolyU</span></div></div>
+      <div class="dest-card reveal reveal-d2"><div class="dest-flag"><img src="logo/gb_4x3.svg" alt="英国"></div><span class="dest-abbr">UK</span><div class="dest-name">英国</div><div class="dest-sub">G5 名校</div><div class="dest-count">40<small>+ 录取</small></div><div class="dest-tags"><span class="dest-tag">Oxford</span><span class="dest-tag">Cambridge</span><span class="dest-tag">IC</span><span class="dest-tag">LSE</span><span class="dest-tag">UCL</span></div></div>
+      <div class="dest-card reveal"><div class="dest-flag"><img src="logo/sg_4x3.svg" alt="新加坡"></div><span class="dest-abbr">SG</span><div class="dest-name">新加坡</div><div class="dest-sub">亚洲顶尖</div><div class="dest-count">60<small>+ 录取</small></div><div class="dest-tags"><span class="dest-tag">NUS</span><span class="dest-tag">NTU</span></div></div>
+      <div class="dest-card reveal reveal-d1"><div class="dest-flag"><img src="logo/au_4x3.svg" alt="澳洲"></div><span class="dest-abbr">AU</span><div class="dest-name">澳洲</div><div class="dest-sub">稳妥之选</div><div class="dest-count">20<small>+ 录取</small></div><div class="dest-tags"><span class="dest-tag">Unimelb</span><span class="dest-tag">ANU</span><span class="dest-tag">USyd</span><span class="dest-tag">UNSW</span></div></div>
+      <div class="dest-card reveal reveal-d2"><div class="dest-flag"><img src="logo/ca_4x3.svg" alt="加拿大"></div><span class="dest-abbr">CA</span><div class="dest-name">加拿大</div><div class="dest-sub">高性价比移民友好</div><div class="dest-count">30<small>+ 录取</small></div><div class="dest-tags"><span class="dest-tag">UofT</span><span class="dest-tag">UBC</span><span class="dest-tag">McGill</span><span class="dest-tag">Waterloo</span><span class="dest-tag">UAlberta</span></div></div>
     </div>
   </div>
 </section>
+
+
 
 <!-- 数据概览 -->
-<section class="data-overview">
+<section class="data-overview" style="padding:80px 0;background:#fff;">
   <div class="container">
-    <div class="data-grid">
-      <div class="data-card">
-        <div class="data-number">90%+</div>
-        <div class="data-label">Top 30 录取率</div>
-        <div class="data-source">数据来源：2022-2026 学员录取结果统计</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
+      <div style="background:#deede0;border:1.5px solid #c5d9c7;border-radius:16px;padding:28px 20px;text-align:center;">
+        <div style="font-family:var(--font-display);font-size:2.4rem;font-weight:700;color:#1B4332;line-height:1;margin-bottom:8px;">90%+</div>
+        <div style="font-size:.88rem;color:rgba(30,30,30,.8);font-weight:500;">Top 30 录取率</div>
+        <div style="font-size:.75rem;color:rgba(30,30,30,.5);margin-top:6px;">2022-2026 学员数据</div>
       </div>
-      <div class="data-card">
-        <div class="data-number">100%</div>
-        <div class="data-label">学员最终获得至少一个录取</div>
-        <div class="data-source">数据来源：2022-2026 全部签约学员</div>
+      <div style="background:#e4ecf2;border:1.5px solid #c8d4df;border-radius:16px;padding:28px 20px;text-align:center;">
+        <div style="font-family:var(--font-display);font-size:2.4rem;font-weight:700;color:#1B4332;line-height:1;margin-bottom:8px;">100%</div>
+        <div style="font-size:.88rem;color:rgba(30,30,30,.8);font-weight:500;">获得至少一个录取</div>
+        <div style="font-size:.75rem;color:rgba(30,30,30,.5);margin-top:6px;">2022-2026 全部学员</div>
       </div>
-      <div class="data-card">
-        <div class="data-number">10+</div>
-        <div class="data-label">文书平均修改轮次</div>
-        <div class="data-source">数据来源：2024-2025 全程陪伴版学员内部记录</div>
+      <div style="background:#f2ebe1;border:1.5px solid #e0d8cc;border-radius:16px;padding:28px 20px;text-align:center;">
+        <div style="font-family:var(--font-display);font-size:2.4rem;font-weight:700;color:#1B4332;line-height:1;margin-bottom:8px;">10+</div>
+        <div style="font-size:.88rem;color:rgba(30,30,30,.8);font-weight:500;">文书平均修改轮次</div>
+        <div style="font-size:.75rem;color:rgba(30,30,30,.5);margin-top:6px;">不限次修改政策</div>
       </div>
-      <div class="data-card">
-        <div class="data-number">0</div>
-        <div class="data-label">隐形消费项目</div>
-        <div class="data-source">透明定价，签约即锁定全部费用</div>
+      <div style="background:#f2e6ec;border:1.5px solid #ddd0d9;border-radius:16px;padding:28px 20px;text-align:center;">
+        <div style="font-family:var(--font-display);font-size:2.4rem;font-weight:700;color:#1B4332;line-height:1;margin-bottom:8px;">0</div>
+        <div style="font-size:.88rem;color:rgba(30,30,30,.8);font-weight:500;">隐形消费项目</div>
+        <div style="font-size:.75rem;color:rgba(30,30,30,.5);margin-top:6px;">签约锁定全部费用</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 核心优势 -->
-<section class="features">
+
+<section class="services" id="services">
   <div class="container">
-    <h2 class="section-title">为什么选择 SeekingBar 而不是大机构？</h2>
-    <div class="features-grid">
-      <div class="feature-card">
-        <div class="feature-icon">🎯</div>
-        <h3>一对一导师制，不做流水线</h3>
-        <p>每位学生配备专属导师，不是分配到「文书组」和「选校组」分开处理。你的导师从选校到签证全程跟进，保证申请策略的一致性和连贯性。</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">✍️</div>
-        <h3>文书不限次修改，满意为止</h3>
-        <p>平均每位学员修改 10+ 轮文书。我们不设修改次数上限，不按字数收费。你的文书改到满意，才是我们的标准。</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">💰</div>
-        <h3>透明定价，签约即锁定全部费用</h3>
-        <p>没有「加申收费」「面试辅导另算」「签证材料打包收费」等隐形项目。签约时什么价，全程就是什么价。</p>
-      </div>
+    <div class="section-head reveal">
+      <div class="section-tag">服务体系</div>
+      <h2 class="section-title">一站式陪伴，不遗漏每个细节</h2>
+      <p class="section-desc">从零开始到 Offer 落地，你只需要专注提升自己，其他交给我们。</p>
     </div>
-  </div>
-</section>
-
-<!-- 精选案例 -->
-<section class="cases-preview">
-  <div class="container">
-    <h2 class="section-title">这些同学都拿到了什么 Offer？</h2>
-    <div class="cases-grid">
-      <!-- 案例1：已有内容 -->
-      <div class="case-card">
-        <div class="case-header">
-          <div class="case-avatar">A</div>
-          <div class="case-meta">
-            <h4>A同学</h4>
-            <p>美本 · 统计学 & 经济学 双专业</p>
-          </div>
-        </div>
-        <div class="case-result">🎉 UNC Chapel Hill · Statistics & Economics 双专业</div>
-        <div class="case-summary">
-          由于我是美本，没有考托福。GPA对于美本来说至关重要，我认为一个比较高的GPA是申请大牛项目的敲门砖...
-        </div>
-        <a href="cases.html#case1" class="case-link">查看完整申请经验 →</a>
-      </div>
-
-      <!-- 案例2：占位 -->
-      <div class="case-card">
-        <div class="case-header">
-          <div class="case-avatar" style="background:var(--text-secondary);">?</div>
-          <div class="case-meta">
-            <h4>[学生姓名/昵称]</h4>
-            <p>[本科学校] · [专业]</p>
-          </div>
-        </div>
-        <div class="case-result">🎉 [录取学校] · [项目]</div>
-        <div class="case-summary">
-          [学生自述摘要，200字左右...]
-        </div>
-        <a href="cases.html#case2" class="case-link">查看完整申请经验 →</a>
-      </div>
-
-      <!-- 案例3：占位 -->
-      <div class="case-card">
-        <div class="case-header">
-          <div class="case-avatar" style="background:var(--text-secondary);">?</div>
-          <div class="case-meta">
-            <h4>[学生姓名/昵称]</h4>
-            <p>[本科学校] · [专业]</p>
-          </div>
-        </div>
-        <div class="case-result">🎉 [录取学校] · [项目]</div>
-        <div class="case-summary">
-          [学生自述摘要，200字左右...]
-        </div>
-        <a href="cases.html#case3" class="case-link">查看完整申请经验 →</a>
-      </div>
-
-    </div>
-    <div class="section-cta">
-      <a href="cases.html" class="btn btn-primary">查看全部录取案例</a>
-    </div>
-  </div>
-</section>
-
-<!-- 服务简介 -->
-<section class="services-preview">
-  <div class="container">
-    <h2 class="section-title">三种服务方案，哪种适合你？</h2>
     <div class="services-grid">
-      <div class="service-card">
-        <h3>全程陪伴版</h3>
-        <p>选校+文书+面试+签证，一站式全覆盖。适合需要全方位支持、时间紧张的学生。</p>
-        <a href="services.html#full" class="btn btn-outline">了解详情</a>
+      <div class="svc-card reveal">
+        <div class="svc-num">01</div>
+        <div class="svc-icon blue">🎯</div>
+        <h3>选校规划</h3>
+        <p>深度分析你的背景与目标，制定科学的选校梯度方案。</p>
+        <ul class="svc-list">
+          <li>背景诊断与竞争力评估</li>
+          <li>项目调研与匹配分析</li>
+          <li>冲刺 / 匹配 / 保底三档选校</li>
+        </ul>
       </div>
-      <div class="service-card">
-        <h3>文书精修版</h3>
-        <p>头脑风暴+不限次修改，打造独特竞争力。适合已有选校思路、需要文书打磨的学生。</p>
-        <a href="services.html#essay" class="btn btn-outline">了解详情</a>
+      <div class="svc-card reveal reveal-d1">
+        <div class="svc-num">02</div>
+        <div class="svc-icon amber">📊</div>
+        <h3>背景提升</h3>
+        <p>针对短板制定提升方案，让申请材料更有竞争力。</p>
+        <ul class="svc-list">
+          <li>科研 / 实习资源推荐</li>
+          <li>GRE / TOEFL 备考建议</li>
+          <li>时间规划指导</li>
+        </ul>
       </div>
-      <div class="service-card">
-        <h3>单项咨询</h3>
-        <p>按需选择，灵活高效。适合 DIY 申请但需要某个环节专业指导的学生。</p>
-        <a href="services.html#single" class="btn btn-outline">了解详情</a>
+      <div class="svc-card reveal reveal-d2">
+        <div class="svc-num">03</div>
+        <div class="svc-icon blue">✍️</div>
+        <h3>文书创作</h3>
+        <p>从头脑风暴到终稿，每篇文书都反复打磨到极致。</p>
+        <ul class="svc-list">
+          <li>SOP / PS 深度定制</li>
+          <li>CV 精修与排版</li>
+          <li>推荐信策略与指导</li>
+        </ul>
       </div>
-    </div>
-    <div class="section-cta">
-      <a href="services.html" class="btn btn-primary">查看完整服务对比表</a>
+      <div class="svc-card reveal">
+        <div class="svc-num">04</div>
+        <div class="svc-icon amber">📝</div>
+        <h3>网申递交</h3>
+        <p>帮你把控申请节点，确保每个截止日期都不遗漏。</p>
+        <ul class="svc-list">
+          <li>网申表填写与审核</li>
+          <li>材料清单追踪管理</li>
+          <li>截止日期提醒</li>
+        </ul>
+      </div>
+      <div class="svc-card reveal reveal-d1">
+        <div class="svc-num">05</div>
+        <div class="svc-icon blue">💬</div>
+        <h3>面试辅导</h3>
+        <p>模拟真实面试场景，帮你打磨表达和临场反应。</p>
+        <ul class="svc-list">
+          <li>一对一模拟面试</li>
+          <li>常见问题题库解析</li>
+          <li>面试表现复盘与优化</li>
+        </ul>
+      </div>
+      <div class="svc-card reveal reveal-d2">
+        <div class="svc-num">06</div>
+        <div class="svc-icon amber">🛂</div>
+        <h3>签证与行前</h3>
+        <p>拿到 Offer 后继续陪你走完最后一公里。</p>
+        <ul class="svc-list">
+          <li>Offer 对比与选择建议</li>
+          <li>签证材料准备指导</li>
+          <li>行前准备清单</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- CTA 区域 -->
-<section class="cta-section">
+
+<section id="process">
   <div class="container">
-    <h2>想知道你的背景能申到什么档次的学校吗？</h2>
-    <p>提交基本信息，24 小时内获得个性化选校评估报告</p>
-    <a href="contact.html#eval" class="btn btn-primary btn-large">免费评估我的录取概率</a>
+    <div class="section-head reveal">
+      <div class="section-tag">申请流程</div>
+      <h2 class="section-title">清晰的时间线，每一步都心中有数</h2>
+      <p class="section-desc">从首次沟通到收到 Offer，我们陪你走完完整旅程。</p>
+    </div>
+    <div class="process-timeline">
+      <div class="process-step reveal">
+        <div class="process-dot"><span>&#x1F50D;</span></div>
+        <div class="process-phase">Phase 1</div>
+        <h4>深度了解</h4>
+        <p>一对一沟通你的背景、目标、预算和偏好</p>
+      </div>
+      <div class="process-step reveal reveal-d1">
+        <div class="process-dot"><span>&#x1F4CB;</span></div>
+        <div class="process-phase">Phase 2</div>
+        <h4>策略制定</h4>
+        <p>制定选校方案、文书框架和时间规划表</p>
+      </div>
+      <div class="process-step reveal reveal-d2">
+        <div class="process-dot"><span>&#x270F;</span></div>
+        <div class="process-phase">Phase 3</div>
+        <h4>文书打磨</h4>
+        <p>反复沟通、修改、润色，直到每篇文书都满意</p>
+      </div>
+      <div class="process-step reveal reveal-d3">
+        <div class="process-dot"><span>&#x1F680;</span></div>
+        <div class="process-phase">Phase 4</div>
+        <h4>递交跟进</h4>
+        <p>提交申请、跟踪状态、准备面试、等 Offer</p>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- Footer -->
+
+
+
+<section class="results" id="results">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-tag" style="color:rgba(255,255,255,.5)">录取成果</div>
+      <h2 class="section-title" style="color:#fff">数据会说话</h2>
+      <p class="section-desc" style="color:rgba(255,255,255,.5)">每一组数字背后，都是真实的努力和信任。</p>
+    </div>
+    <div class="results-grid reveal">
+      <div class="result-item"><div class="result-num">580+</div><div class="result-label">累计录取 Offer</div></div>
+      <div class="result-item"><div class="result-num">100<small>%</small></div><div class="result-label">美国Top 50 录取率</div></div>
+      <div class="result-item"><div class="result-num">93<small>%</small></div><div class="result-label">美国藤校 &amp; Top 10 录取</div></div>
+      <div class="result-item"><div class="result-num">9<small>年</small></div><div class="result-label">深耕研究生申请</div></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="admissions" <section id="admissions">
+  <div class="container-lg">
+    <div class="adm-header reveal">
+      <div class="section-tag">录取案例</div>
+      <h2 class="section-title">听听他们怎么说</h2>
+      <p class="section-desc">每一个 Offer 背后，都是一段真实的故事。点击查看详情。</p>
+    </div>
+    <div class="adm-grid reveal">
+        <div class="adm-card" onclick="openModal('olivia')">
+            <div class="adm-card-accent"></div>
+            <div class="adm-card-body">
+              <div class="adm-card-avatar avatar-columbia">A同学</div>
+              <div class="adm-card-offer">Columbia MSBA<br><span style="font-size:.8em;opacity:.7">Cornell MPS Data Science</span></div>
+              <div class="adm-card-program">Business Analytics &amp; Data Science · 2022 Fall</div>
+              <div class="adm-card-tags"><span class="adm-tag adm-tag-bg">Columbia</span><span class="adm-tag adm-tag-amber">GPA 3.91</span><span class="adm-tag adm-tag-bg">Cornell</span></div>
+              <div class="adm-card-school">UNC Chapel Hill · Statistics &amp; Economics</div>
+            </div>
+            <div class="adm-card-arrow">&#x2192;</div>
+          </div><div class="adm-card" onclick="openModal('b')">
+            <div class="adm-card-accent"></div>
+            <div class="adm-card-body">
+              <div class="adm-card-avatar avatar-penn">Y同学</div>
+              <div class="adm-card-offer">UPenn MSE in Data Science<br><span style="font-size:.8em;opacity:.7">Cornell MPS DS &middot; Columbia MSOR &middot; Northwestern MS in ML &amp; DS</span></div>
+              <div class="adm-card-program">Data Science &middot; 2026 Fall</div>
+              <div class="adm-card-tags"><span class="adm-tag adm-tag-bg">美本 Top50</span><span class="adm-tag adm-tag-amber">GPA 3.95</span><span class="adm-tag adm-tag-bg">科研达人</span></div>
+              <div class="adm-card-school">University of Rochester &middot; Statistics &amp; Data Science</div>
+            </div>
+            <div class="adm-card-arrow">&rarr;</div>
+          </div>
+    </div>
+    <br><br>
+  </div>
+</section>
+
+
+
+<section class="cta-section" id="cta">
+  <div class="container">
+    <div class="section-tag">开始你的旅程</div>
+    <h2 class="section-title">聊一聊，也许就是你<br>梦想开始的那一刻</h2>
+    <p class="section-desc">无论你现在处于哪个阶段，都欢迎来找我们聊聊。第一次咨询完全免费，没有压力。</p>
+    <div class="cta-actions">
+      
+      
+    </div>
+    <div class="cta-qr">
+      <div class="cta-qr-item">
+        <div class="cta-qr-box"><img src="logo/qrcode-wechat.png" alt="微信二维码"></div>
+        <div class="cta-qr-label">💬 添加微信咨询</div>
+      </div>
+      <div class="cta-qr-item">
+        <div class="cta-qr-box"><img src="logo/qrcode-xiaohongshu.png" alt="小红书二维码"></div>
+        <div class="cta-qr-label">📕 关注小红书</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
-      <div class="footer-col">
-        <h4>SeekingBar</h4>
-        <p>专注美国研究生申请的一站式陪伴式服务</p>
+      <div>
+        <div class="footer-brand"><img src="logo/logo.png" alt="SeekingBar"><span>SeekingBar留学工作室</span></div>
+        <p class="footer-desc">专注研究生申请的一站式陪伴服务，让每一个申请季都不留遗憾。</p>
       </div>
       <div class="footer-col">
-        <h4>快速链接</h4>
+        <h5>申请方向</h5>
         <ul>
-          <li><a href="index.html">首页</a></li>
-          <li><a href="about.html">关于我们</a></li>
-          <li><a href="services.html">服务内容</a></li>
-          <li><a href="cases.html">录取案例</a></li>
+          <li><a href="about.html">美国研究生</a></li>
+          <li><a href="about.html">香港硕士</a></li>
+          <li><a href="about.html">新加坡硕士</a></li>
+          <li><a href="about.html">英国硕士</a></li>
+          <li><a href="about.html">澳洲硕士</a></li>
+          <li><a href="about.html">加拿大硕士</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>联系方式</h4>
-        <p>📱 微信：seekingbar_studio</p>
-        <p>📧 邮箱：contact@seekingbar.com</p>
-        <p>🕐 咨询时间：每天 10:00-22:00</p>
+        <h5>服务内容</h5>
+        <ul>
+          <li><a href="services.html">选校规划</a></li>
+          <li><a href="services.html">文书创作</a></li>
+          <li><a href="services.html">面试辅导</a></li>
+          <li><a href="services.html">背景提升</a></li>
+          <li><a href="services.html">签证行前</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>联系我们</h5>
+        <ul>
+          <li><a href="contact.html">添加微信咨询</a></li>
+          <li><a href="contact.html">小红书</a></li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 SeekingBar 留学工作室. All rights reserved.</p>
+      <span>© 2026 SeekingBar 留学工作室 · All rights reserved</span>
+
     </div>
   </div>
 </footer>
 
-<!-- 联系浮窗 -->
-<div class="contact-float">
-  <button class="contact-float-btn" onclick="toggleContactPanel()">💬</button>
-  <div class="contact-panel" id="contactPanel">
-    <h4>联系我们</h4>
-    <p>📱 微信：seekingbar_studio</p>
-    <p>📧 邮箱：contact@seekingbar.com</p>
-    <p>🕐 10:00-22:00</p>
-    <img src="logo/qrcode-wechat.png" alt="微信二维码" style="width:100%;border-radius:8px;margin-top:12px;border:1px solid var(--border);">
+
+<div id="toast">✅ 已收到，我们会尽快联系你！</div>
+
+<div id="toast">✅ 已收到，我们会尽快联系你！</div>
+<div class="modal-overlay" id="modal-olivia">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('olivia')">&#x2715;</button>
+    <div class="modal-header">
+      <div class="modal-header-content">
+        <div class="modal-offer-label">录取结果</div>
+        <div class="modal-offer-title" style="line-height:1.6">Columbia University<br><span style="font-size:.75em;opacity:.7">MS in Business Analytics</span><br><span style="font-size:.75em;opacity:.7">Cornell University · MPS in Data Science</span></div>
+        <div class="modal-offer-tags"><span class="modal-tag">藤校</span><span class="modal-tag">STEM</span><span class="modal-tag">Business Analytics</span><span class="modal-tag">Data Science</span><span class="modal-tag">2022 Fall</span></div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x1F3AF;</span> 背景概览</div>
+        <div class="modal-stats"><div class="modal-stat modal-stat-1"><div class="modal-stat-num">3.91/4.00</div><div class="modal-stat-label">GPA (Dean's List 全学期)</div></div><div class="modal-stat modal-stat-2"><div class="modal-stat-num">Statistics + Economics</div><div class="modal-stat-label">双专业</div></div><div class="modal-stat modal-stat-3"><div class="modal-stat-num">3段实习</div><div class="modal-stat-label">券商IBD · 商行 · 研究院</div></div></div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x270D;&#xFE0F;</span> 申请回顾</div>
+        <div class="modal-reflection" style="padding:36px">
+          <div class="modal-reflection-author" style="margin-bottom:24px;margin-top:0">A 同学 · UNC Chapel Hill · Statistics &amp; Economics 双专业 · 2022 Fall</div>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">哈咯，这里是A同学，一个优秀但还不够优秀的学姐。正在看这篇分享的你是否在焦虑，或者不知应该怎么合理安排申请程序，如果没有那最好，如果是的，那我希望这篇分享能给你带来启发。接下来，我会按照申请前期准备和申请过程两大块分享自己的申请回顾。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">前期准备</h4>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">标化</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">由于我是美本，所以我并没有在申请研究生之前考托福，这里的标化就是指GPA和GRE。GPA对于美本来说可以说是至关重要的，我认为一个比较高的GPA（maybe3.8+属于比较高）是申请大牛项目的敲门砖，因为这些项目的申请者算是神仙打架了。GRE的话，我个人认为，相对于GPA，没有那么具有说服力和重要性。如果学校要求提交GRE，那最好是去考一个。GRE最好的准备方法就是缩短战线，突击学习，建议2-3个月把他搞定，具体是320+，325+，还是330+，当然是看你自己的要求，以及申请项目的档次。毕竟这么多新词汇，咱们上学的时候也没法匀出来这么多时间去一次一次的考。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">实习</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">我总共就3段暑期实习，一段研究院数据consulting类，一段商业银行、一段券商IBD（不是头部券商）。其实我觉得自己的实习比起其他大佬真的是平平无奇，没有特别大的参考价值。但是我至少在每一段实习过程中都收获了不一样的经历，算是给自己开拓眼界，然后后续文书也能和这些实习扯上关系，尤其是那一段在研究院的经历算是比较与众不同的。现在的申请者中，一抓一大把头部券商以及大厂的实习，但是含金量只有自己知道。实习公司的title固然重要，但是更重要的是what do you learn from it，感觉美国大学是非常看重这种self-reflection的。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">科研</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">我大学四年在学校里做了蛮多project&research的，最后挑选出来了四个放到简历上。其中有一个summer research，含金量是蛮高的，不仅发表了，还获得了supervisor（在这里我们叫他A教授）的推荐信以及金主爸爸的奖金。如果学校里有这种summer research的机会，一定要尽早去寻找supervisor，然后申请这个research。我本身和A教授就很熟，同时我想research的方向和A教授感兴趣的方向是一致的，所以他一口就答应我了。如果没有很熟的professor，那么一定要提前去了解各个老师，选一个research area和你一致的，最好是你上过课程的，然后课后多多reach out 他们，搞好关系。还有一点非常重要的是，科研一定是要有持续性的，可以在junior到senior一直持续做不一样的，这样学校会认为你always curious and eager to learn new things。我那个summer research结束前后都有research衔接，一直到21年上半年结束。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">学校相关活动</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">一些比较具有意义的extracurricular activities建议参加，我有两个学术相关的，一个是undergraduate learning assistant（ULA），另一个是叫 fed challenge的社团。ULA这个role一般都可以在上完课程取得好成绩之后自己去申请的，我认为很有意义，传承知识、巩固知识、还可以拉近和教授的关系。我当时是A教授直接reach out到我，问我要不要做ULA的，当时收到这个email还是蛮欣喜的。关于社团，Fed challenge team会代表unc参加Fed举办的一个比赛，宏观经济monetary policy相关的，这个和我要申请的项目是有一定联系的。所以建议提前想一想要申请什么方向的研究生，这样可以多做一些相关的活动来丰富自己的经历。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">中介机构</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">现在市面上的中介机构太多了，尤其是研究生申请的，五花八门。建议多找找学长学姐推荐他们的机构，询问是否满意，然后多多咨询几家，这样就能直观感受哪些中介更适合你，或者你更喜欢。我找到S老师做真的是超级超级超级巧，这必须得划重点！当时问了一个朋友中介的事儿，他和我说他很喜欢他之前的文书老师，但是好像他的文书老师从那个原来的机构辞职了。在他询问S老师近况后，S老师竟然告诉他现在开始单干啦，就是这么巧，我和S老师加上了微信。可能就是缘分吧，我在之前询问了很多家机构我自己都不是特别满意（我本人对大机构还是小作坊不care，甚至更喜欢小作坊，size小，做的精细），和S老师谈了之后特别喜欢她的风格，就一拍即合。</p>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">如果你想要中介老师提早给你安排各种实习科研，那你多早找都可以。如果你有自己的plan，只需要老师帮助你选校、头脑风暴、写文书等等申请过程的事情，那在大三下的暑假开始找就绰绰有余啦。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">申请过程</h4>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">选校</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">选校环节必须大大夸奖S老师。根据我对项目种类和排名，她给了我一个超级详细选校list，我省去很多自己一个一个去找的时间，可以直接把每个link点开，然后依依查看。选校过程中，S老师会给出合理意见，同时我会根据自己的需求进行筛选。我申请的很多项目都是神仙项目，S老师会尊重我的想法，陪我一起冲。但是毕竟十所学校有限，多余想申请的项目，我就DIY了一下。现在来看我想申请的都申请了，虽然被拒了，但是没有一点遗憾啦。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">简历</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">从头到尾我的resume总共修改了14次，没想到吧。在签了合同之后就开始修改resume了，一点一点打造成最完美的version。我觉得修改resume不能着急，重要的是去思考如何突出你在每一段的亮点。随时想到什么就去修改，毕竟灵感是不定时的。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">头脑风暴、文书</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">文书真的是申请过程中太重要的一步了。在神仙打架的项目申请者之中，能体现你的特色的唯独是文书。文书前期有很多次的头脑风暴，先是过一遍所有自己的经历，仔细思考每一个经历之后学到的东西，然后再pick出最优质的经历继续深挖。通过这些经历，再结合自己的想法，一点一点写出自己的career plan。一个清晰且能展示ambition的career plan是藤校以及大牛项目非常看重的。由于我的项目方向不止一个，S老师也超级负责任的和我一起给每一个项目方向制定出不同的career plan。</p>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">刚开始写文书的过程很痛苦，但是看着最后被改的面目全非的文书还是很爽的。尤其是哥大的文书让我印象非常深刻，改了超多遍，就是为了去更多的展示我符合这个项目的地方。一遍又一遍的讨论和修改成就了我哥大MSBA的OFFER哈哈！由此可见，一个专业老师是多么的重要！我很enjoy每一次和S老师讨论过后思路理清楚的快感。因为思路理清楚之后，文书写起来是非常快的，很有成就感。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">面试</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">面试一般分为机器随即问题和真人面。S老师在面试之前就给我了一份常见问题的总结，可以在初期准备面试的时候使用，可以cover大部分的问题，具体每个项目的interview还是建议去一亩三分地、chasedream网站去搜索，里面每年的题目都很多，面的早的同学也会分享当年的面试问题。我个人对面试都不太慌张的，准备充足的情况下，肯定不会有什么意外。</p>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">最后的最后，我很喜欢和S老师以email的方式发送各种文件，一开始我都没有想到以这种方式，真的很方便双方去track以往的文件。</p>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">好啦，那就先分享到这里吧，随时欢迎问更多的问题。申请季心态很重要，一步一步来，希望大家都能拿到心仪的offer，没拿到最心仪的offer也没有关系，这不代表你不够优秀，是拒你的学校的损失哈哈，一切都是最好的安排～</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<div class="modal-overlay" id="modal-b">
+<div id="modal-b">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('b')">&times;</button>
+    <div class="modal-header">
+      <div class="modal-header-content">
+        <div class="modal-offer-label">录取结果</div>
+        <div class="modal-offer-title" style="line-height:1.6">University of Pennsylvania<br><span style="font-size:.75em;opacity:.7">MSE in Data Science</span><br><span style="font-size:.75em;opacity:.7">Cornell University · MPS in Data Science</span><br><span style="font-size:.75em;opacity:.7">Columbia University · MS in Operations Research</span><br><span style="font-size:.75em;opacity:.7">Northwestern University · MS in Machine Learning and Data Science</span></div>
+        <div class="modal-offer-tags"><span class="modal-tag">Top 10</span><span class="modal-tag">STEM</span><span class="modal-tag">Data Science</span><span class="modal-tag">2026 Fall</span></div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x1F3AF;</span> 背景概览</div>
+        <div class="modal-stats"><div class="modal-stat modal-stat-1"><div class="modal-stat-num">3.95/4.00</div><div class="modal-stat-label">GPA (美本)</div></div><div class="modal-stat modal-stat-2"><div class="modal-stat-num">BS+BS</div><div class="modal-stat-label">Statistics &amp; Data Science</div></div><div class="modal-stat modal-stat-3"><div class="modal-stat-num">4校录取</div><div class="modal-stat-label">NLP/AI科研导向</div></div></div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x270D;&#xFE0F;</span> 申请回顾</div>
+        <div class="modal-reflection" style="padding:36px">
+          <div class="modal-reflection-author" style="margin-bottom:24px;margin-top:0">Y同学 &middot; University of Rochester &middot; BS Statistics &amp; BS Data Science &middot; 2026 Fall</div>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">初识S老师，务实专业，申请思路个性化</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">我在24年暑假认识了S老师，是我妈妈的朋友推荐的，那会儿我大二刚结束，因为怕自己DIY申请的结果不够理想，于是想找中介协助申请研究生。S老师给我的感觉非常认真务实，通过看我的活动经历就给出往科研方向的申请思路。</p>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">对比见面的其他两家中介：都让我去搞实习，即便花钱水一个，这点我很不喜欢，见面的过程花了很多时间讲这个实习有多重要，这我当然知道，可是他们并没给出很有用的找好实习的方法，很虚，让我非常的焦虑，感觉一定要套这个框架似的；S老师则是从我的实际出发，发挥我gpa高，利用校内资源的优势，给予我肯定，并开始规划大三以及后面的暑假。见面时S老师让我觉得胸有成竹，很真诚，有条理，没有太多的闲聊，而且申请都是她一人负责，不存在一个老师文书，一个老师申请这样有信息不一致的情况。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">基于我实际优势和背景进行规划</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">大三开始，我做了很多比较关键的活动，比如当助教，跟校内老师做科研，我认为这些都比找一些小公司的实习更适合我，既能体现真实性，也可以学到真东西：积累经验，与人相处，找老师要推荐信等等。我很清楚自己的水平很难找到国外实习，毕竟谁会要一个大二，没什么科研成果的外国学生呢。</p>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">S老师告诉我，我的这些活动都挺好的，并且对申请确实有实质帮助，这让我更有自信坚持。在这期间，她会经常跟我视频会议更新进度，讲下一步规划，比如及时更新简历，何时做文书头脑风暴，整个申请时间线，选校计划，gre准备，等等。特别是大三下学期，非常认真负责！到了大三的暑假，我主动地联系学校的老师，做了暑期的科研，这个也是对文书贡献最大的经历。我一开始还想回国过暑假，S老师强烈建议我留学校做这个科研，最后看来帮助非常大。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">帮助我深度挖掘经历，打造完整叙事</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">我简历上几乎所有的活动，除了课内的大作业，都是我利用了校内资源，自己争取来的，除了gpa之外，这个也能体现我是有主动性，好学的人，S老师很好得将故事串联了起来，跟我一起讨论，头脑风暴，帮我规划文书。</p>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">简历和文书S老师帮我修改了一遍又一遍，每次都有详细的批注。不同学校不同项目，文书题目都有些许不同，S老师能帮助我抓住题目重点，用清晰的逻辑，让我活动经历完美得契合题目，如果我纯自己弄应该会蛮头疼的：我写这些喜欢用ai帮我整理，然后改一改，又担心自己总结不到位。我认为S老师最厉害的在于写得很有人情味，内容完整，结构明了，又100% by human，每次改完一看我都觉得写得非常好，很佩服，需要跟老师学习！我做了什么活动，得了多少分，固然重要，但是把它们生动地呈现给招生官更重要。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">高度负责，有策略，有体系的申请流程</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">S老师每一次会后的总结、文书相关邮件、选校、面试等等，都是非常详细的，有批注，有提醒我截止时间，对我有很好的督促作用，我知道自己喜欢拖，然后做的时候一下都弄掉，S老师也发现了哈哈。我记得那个选校和实习的表格非常的详细，都是老师自己帮我整理的，网站，基础信息，建议，都有，对我有很大的帮助，在我没有gre的情况下标注出了不需要gre的学校让我先去准备，宾大也是其中之一，太明智啦。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">面试辅导让表现逐步提升</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">面试的辅导感觉很像写文书之前头脑风暴，S老师帮我给各个题目的回答提建议。一开始几所学校，jhu和康奈尔，我还蛮紧张的，一分钟的回答刚开始都能听见心跳，不过后面几所，哥大，西北，就从容多了。最后一所康奈尔本部面试前，S老师还耐心地帮我在微信群提一些回答建议，我觉得非常好，让我答得更自信了。</p>
+          <h4 style="font-family:var(--font-cn);font-size:1rem;font-weight:700;color:var(--navy);margin-top:32px;margin-bottom:12px">总结</h4>
+          <p style="font-size:1rem;color:var(--text-2);line-height:2;margin-bottom:12px">录到宾大我是出乎意料的，以为会到七月呢，当时收到waitlist其实已经挺意外了，本来以为我没gre直接没戏了，说明我其他材料都蛮好的，S老师对文书的付出也相当重要。如果只是去哥大我总纠结跟别人没什么差距，但是宾大没得说，非常满意，还是在城里。申请的11个项目，除了哥大AI项目自动弃权，就康奈尔dsda和耶鲁sds拒了，别的全中，挺开心的，谢谢S老师！</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-<script src="main.js"></script>
+
+<div class="modal-overlay" id="modal-e">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('e')">&#x2715;</button>
+    <div class="modal-header">
+      <div class="modal-header-content">
+        <div class="modal-offer-label">录取结果</div>
+        <div class="modal-offer-title">UPenn</div>
+        <div class="modal-offer-school">MCIT (Computer & Info Tech)</div>
+        <div class="modal-offer-tags"><span class="modal-tag">藤校</span><span class="modal-tag">STEM</span><span class="modal-tag">转码友好</span><span class="modal-tag">2024 Fall</span></div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x1F3AF;</span> 背景概览</div>
+        <div class="modal-stats"><div class="modal-stat modal-stat-1"><div class="modal-stat-num">Peking U</div><div class="modal-stat-label">陆本</div></div><div class="modal-stat modal-stat-2"><div class="modal-stat-num">零基础</div><div class="modal-stat-label">转码选手</div></div><div class="modal-stat modal-stat-3"><div class="modal-stat-num">MCIT</div><div class="modal-stat-label">藤校 STEM</div></div></div>
+      </div>
+      
+      
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x2728;</span> 申请心得</div>
+        <div class="modal-reflection">
+          <p>转专业申请 CS 是个冒险决定，导师给了我很大的信心支持。帮我系统性地补充了先修课背景，最终拿到 UPenn MCIT 的录取，非常感激。</p>
+          <div class="modal-reflection-author">— E 同学 · UPenn MCIT · 2024 Fall</div>
+        </div>
+      </div>
+      <div class="modal-section"><div class="modal-section-title"><span>&#x1F4A1;</span> 申请建议</div><div class="modal-advice"><div class="modal-advice-item"><div class="modal-advice-icon">&#x1F4A1</div><div class="modal-advice-title">先修课要补齐</div><div class="modal-advice-text">转码项目的先修课（数学、编程）是门槛，必须提前规划补足。</div></div><div class="modal-advice-item"><div class="modal-advice-icon">&#x1F916;</div><div class="modal-advice-title">项目选择有技巧</div><div class="modal-advice-text">不是所有 CS 项目都适合转专业，MCIT 就是专为转码设计的。</div></div></div></div>
+    </div>
+    </div>
+  </div>
+<div class="modal-overlay" id="modal-f">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('f')">&#x2715;</button>
+    <div class="modal-header">
+      <div class="modal-header-content">
+        <div class="modal-offer-label">录取结果</div>
+        <div class="modal-offer-title">Princeton University</div>
+        <div class="modal-offer-school">Master in Finance</div>
+        <div class="modal-offer-tags"><span class="modal-tag">藤校</span><span class="modal-tag">STEM</span><span class="modal-tag">Finance</span><span class="modal-tag">2023 Fall</span></div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x1F3AF;</span> 背景概览</div>
+        <div class="modal-stats"><div class="modal-stat modal-stat-1"><div class="modal-stat-num">LSE</div><div class="modal-stat-label">海本</div></div><div class="modal-stat modal-stat-2"><div class="modal-stat-num">MFin</div><div class="modal-stat-label">Princeton 录取</div></div><div class="modal-stat modal-stat-3"><div class="modal-stat-num">量化</div><div class="modal-stat-label">实习科研</div></div></div>
+      </div>
+      
+      
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x2728;</span> 申请心得</div>
+        <div class="modal-reflection">
+          <p>选校阶段导师就给了非常专业的建议，冲刺 Princeton 的策略制定得很清晰。最后真的拿到了，觉得自己做了最正确的选择。</p>
+          <div class="modal-reflection-author">— F 同学 · Princeton MFin · 2023 Fall</div>
+        </div>
+      </div>
+      <div class="modal-section"><div class="modal-section-title"><span>&#x1F4A1;</span> 申请建议</div><div class="modal-advice"><div class="modal-advice-item"><div class="modal-advice-icon">&#x1F4B0</div><div class="modal-advice-title">选校要专业</div><div class="modal-advice-text">Princeton MFin 竞争激烈，导师的专业选校策略是成功的关键一步。</div></div></div></div>
+    </div>
+    </div>
+  </div>
+<div class="modal-overlay" id="modal-g">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('g')">&#x2715;</button>
+    <div class="modal-header">
+      <div class="modal-header-content">
+        <div class="modal-offer-label">录取结果</div>
+        <div class="modal-offer-title">Yale University</div>
+        <div class="modal-offer-school">MPH in Biostatistics</div>
+        <div class="modal-offer-tags"><span class="modal-tag">Top 20</span><span class="modal-tag">STEM</span><span class="modal-tag">Biostatistics</span><span class="modal-tag">2024 Fall</span></div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x1F3AF;</span> 背景概览</div>
+        <div class="modal-stats"><div class="modal-stat modal-stat-1"><div class="modal-stat-num">Fudan U</div><div class="modal-stat-label">211 陆本</div></div><div class="modal-stat modal-stat-2"><div class="modal-stat-num">MPH</div><div class="modal-stat-label">公共卫生</div></div><div class="modal-stat modal-stat-3"><div class="modal-stat-num">Biostat</div><div class="modal-stat-label">生统方向</div></div></div>
+      </div>
+      
+      
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x2728;</span> 申请心得</div>
+        <div class="modal-reflection">
+          <p>申请 Yale 的生物统计项目，竞争非常激烈。导师帮我把研究经历挖掘到了极致，每一段经历都有细节有反思，最终脱颖而出。</p>
+          <div class="modal-reflection-author">— G 同学 · Yale MPH in Biostatistics · 2024 Fall</div>
+        </div>
+      </div>
+      <div class="modal-section"><div class="modal-section-title"><span>&#x1F4A1;</span> 申请建议</div><div class="modal-advice"><div class="modal-advice-item"><div class="modal-advice-icon">&#x1F3A8</div><div class="modal-advice-title">研究要深入</div><div class="modal-advice-text">公卫和生统方向非常看重 research 经历，要学会深度讲述自己的研究故事。</div></div></div></div>
+    </div>
+    </div>
+  </div>
+<div class="modal-overlay" id="modal-h">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('h')">&#x2715;</button>
+    <div class="modal-header">
+      <div class="modal-header-content">
+        <div class="modal-offer-label">录取结果</div>
+        <div class="modal-offer-title">Caltech</div>
+        <div class="modal-offer-school">MS in Applied Physics</div>
+        <div class="modal-offer-tags"><span class="modal-tag">Top 10</span><span class="modal-tag">STEM</span><span class="modal-tag">Physics</span><span class="modal-tag">2024 Fall</span></div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x1F3AF;</span> 背景概览</div>
+        <div class="modal-stats"><div class="modal-stat modal-stat-1"><div class="modal-stat-num">Peking U</div><div class="modal-stat-label">陆本顶尖</div></div><div class="modal-stat modal-stat-2"><div class="modal-stat-num">APh</div><div class="modal-stat-label">应用物理</div></div><div class="modal-stat modal-stat-3"><div class="modal-stat-num">竞赛</div><div class="modal-stat-label">物理金牌</div></div></div>
+      </div>
+      
+      
+      <div class="modal-section">
+        <div class="modal-section-title"><span>&#x2728;</span> 申请心得</div>
+        <div class="modal-reflection">
+          <p>Caltech 的申请难度懂的都懂，导师帮我打磨了一篇非常有深度的 Research Statement，面试也准备得非常充分，最终顺利拿到 Offer。</p>
+          <div class="modal-reflection-author">— H 同学 · Caltech MS in Applied Physics · 2024 Fall</div>
+        </div>
+      </div>
+      <div class="modal-section"><div class="modal-section-title"><span>&#x1F4A1;</span> 申请建议</div><div class="modal-advice"><div class="modal-advice-item"><div class="modal-advice-icon">&#x1F9D1</div><div class="modal-advice-title">科研statement要深度</div><div class="modal-advice-text">Caltech 这种顶尖理工科，research statement 的深度直接决定录取结果。</div></div><div class="modal-advice-item"><div class="modal-advice-icon">&#x1F4AC</div><div class="modal-advice-title">面试要充分</div><div class="modal-advice-text">理工科的面试会深挖你的研究，要对每一段经历了如指掌。</div></div></div></div>
+    </div>
+    </div>
+  </div>
+
+
+<script>
+
+const STUDENT_ORDER = ["olivia","b","c","d","e","f","g","h"];
+const navEl = document.getElementById("nav");
+window.addEventListener("scroll", function() { navEl.classList.toggle("scrolled", window.scrollY > 40); });
+function scrollTo(sel) { var el = document.querySelector(sel); if (el) el.scrollIntoView({behavior:"smooth", block:"start"}); }
+function toggleNavMenu() {
+  var dropdown = document.getElementById("navDropdown");
+  if (!dropdown) return;
+  dropdown.classList.toggle("open");
+}
+function toggleMobileNav() { document.getElementById("mobileNav").classList.toggle("open"); }
+var observer = new IntersectionObserver(function(entries) { entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add("visible"); observer.unobserve(e.target); }}); }, {threshold: 0.12});
+document.querySelectorAll(".reveal").forEach(function(el) { observer.observe(el); });
+function showToast() { var t = document.getElementById("toast"); t.style.transform = "translateX(-50%) translateY(0)"; t.style.opacity = "1"; setTimeout(function() { t.style.transform = "translateX(-50%) translateY(100px)"; t.style.opacity = "0"; }, 3000); }
+function openModal(sid) { var m = document.getElementById("modal-" + sid); if (m) { m.classList.add("active"); document.body.style.overflow = "hidden"; updateNavBtns(sid); }}
+function closeModal(sid) { var m = document.getElementById("modal-" + sid); if (m) { m.classList.remove("active"); document.body.style.overflow = ""; }}
+function prevStudent(sid) { var idx = STUDENT_ORDER.indexOf(sid); if (idx > 0) { closeModal(sid); setTimeout(function() { openModal(STUDENT_ORDER[idx - 1]); }, 200); }}
+function nextStudent(sid) { var idx = STUDENT_ORDER.indexOf(sid); if (idx < STUDENT_ORDER.length - 1) { closeModal(sid); setTimeout(function() { openModal(STUDENT_ORDER[idx + 1]); }, 200); }}
+function updateNavBtns(sid) { var idx = STUDENT_ORDER.indexOf(sid); var prevBtn = document.getElementById("btn-prev-" + sid); var nextBtn = document.getElementById("btn-next-" + sid); if (prevBtn) prevBtn.disabled = idx === 0; if (nextBtn) nextBtn.disabled = idx === STUDENT_ORDER.length - 1; }
+document.querySelectorAll(".modal-overlay").forEach(function(overlay) { overlay.addEventListener("click", function(e) { if (e.target === overlay) { overlay.classList.remove("active"); document.body.style.overflow = ""; }}); });
+
+
+// Disable browser's scroll restoration
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+}
+
+// Save scroll position before unload
+var savedScroll = 0;
+window.addEventListener('scroll', function() {
+    savedScroll = window.scrollY;
+});
+
+// Restore on load with multiple attempts
+window.addEventListener('load', function() {
+    var attempts = 0;
+    var maxAttempts = 10;
+    var tryScroll = function() {
+        if (savedScroll > 0) {
+            window.scrollTo(0, savedScroll);
+        }
+        attempts++;
+        if (attempts < maxAttempts) {
+            setTimeout(tryScroll, 50);
+        }
+    };
+    tryScroll();
+});
+
+</script>
+
 </body>
 </html>
